@@ -1,0 +1,390 @@
+::selection {
+  background: brown;
+  color: #FFF;
+}
+/*
+@font-face {
+  font-family: isekai;
+  src: url(fonts/HachiMaruPop.ttf);
+}
+
+@font-face {
+  font-family: elegant;
+  src: url(fonts/Foglihtenno07-8qnn.otf);
+}
+*/
+.u{
+	text-decoration: underline;
+}
+
+.br{
+	display: none;
+}
+
+.gbox{
+	padding: 10px;
+	border-left: ridge 5px #A66;
+	border-radius: 5px;
+}
+
+#logo{
+	position: absolute;
+	border: solid 2px #111;
+	border-radius: 100%;
+	left: -6vw;
+	top: -6vh;
+	width: 150px;
+	cursor: pointer;
+	background: black;
+	transition: all 0.2s;
+}
+
+#logo:hover{
+	border: solid 2px #333;
+	padding: 5px;
+	left: -1vw;
+	top: -1vh;
+}
+
+#home-logo{
+	margin-right: 25px;
+	width: 256px;
+}
+
+html{
+	overflow-x: hidden;
+	position: relative;
+  min-height: 100vh;
+}
+
+body{
+	background: url('../img/3.png') fixed no-repeat;
+	text-align: center;
+	margin: 0;
+  position: relative;
+  min-height: 100vh;
+  font-family: elegant;
+}
+
+h1{
+	padding: 20px;
+	margin: 0;
+}
+
+ul{
+	width: 28vw;
+	margin: auto;
+}
+
+li{
+	font-size: 1.3em;
+}
+
+#banner{
+	background: rgba(0,0,0,0.33);
+}
+
+h2, h3, p{
+	font-family: "Time New Roman";
+}
+
+h2{
+	font-size: 2em;
+}
+
+h2:not(:first-child){
+	background: #700000;
+	color: #FFF;
+	margin-left: 3vw;
+	margin-right: 3vw;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+p{
+	font-size: 1.3em;
+	margin: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#chapbox, #voc{
+	width: 86vw;
+	display: box;
+	margin: auto;
+}
+
+#main{
+	color: #222;
+	padding: 5px;
+	background: url(../img/corner-top-right.png) no-repeat 100% 0%, url(../img/corner-top-left.png) no-repeat 0% 0%, white;
+	border: solid 5px #222;
+	background-size: 10%;
+}
+
+.isekai{
+	user-select: none;
+	color: white;
+	font-family: isekai;
+	font-size: 1.2em;
+	text-shadow: -3px 0px black;
+}
+
+.elegant{
+	user-select: none;
+	color: white;
+	text-shadow: -3px 0px black;
+	font-family: elegant;
+	font-size: 1.2em;
+}
+
+#menu, #ch-menu{
+	box-shadow: 0px 1px #111;
+	text-align: center;
+	background: #222;
+	color: white;
+	font-size: 1.6em;
+	cursor: pointer;
+	user-select: none;
+}
+
+#ch-menu{
+	display: inline-block;
+	width: 100%;
+}
+
+#ch-menu .menu-el{
+	border-right: grey solid 1px;
+}
+
+#ch-menu .menu-el:first-child{
+	border-left: grey solid 1px;
+}
+
+#footer{
+	box-shadow: 0px -1px #111;
+	position: absolute;
+	text-align: center;
+	cursor: pointer;
+	background: #222;
+	width: 100vw;
+	bottom: 0;
+	bottom: -9rem;
+	user-select: none;
+}
+
+.ex, .trad, .hira{
+	padding: 10px;
+	background: #EDD;
+	font-size: 1.3em;
+	width: 75vw;
+	margin: auto;
+	margin-top: 5px;
+	border-radius: 5px;
+}
+
+.ex{
+	border: solid 1px #ABB;
+	color: #333;
+}
+
+.hira{
+	background: #DDE;
+	border: solid 1px #AAB;
+	color: #778;
+}
+
+.trad{
+	border: solid 1px #BAB;
+	background: #DED;
+	color: #787;
+}
+
+.b{
+	color: #D05;
+}
+
+table{
+	margin: auto;
+	color: #FFF;
+	border-spacing: 3vw 1px;
+}
+
+th{
+	padding: 5px;
+	color: brown;
+	font-size: 1em;
+}
+
+td{
+	border-radius: 3px;
+	font-size: 1em;
+	padding: 8px;
+	transition: all 0.1s;
+}
+
+#voc{
+	border-spacing: 2px 2px;
+	font-family: "Yu Mincho";
+}
+
+#voc th{
+	background: #303;
+	color: #FFEFFF;
+}
+
+#voc td{
+	background: #EEE;
+	max-width: 10vw;
+	color: #222!important;
+}
+
+#voc tr:nth-child(2n) td{
+	background: #DADADA;
+}
+
+#voc td:first-child{
+	width: 2vw;
+}
+
+#footer td:hover{
+	background: brown;
+}
+
+#main td{
+	font-size: 1.3em;
+	color: #770000;
+	padding: 5px;
+}
+
+.menu-el{
+	display: inline-block;
+	padding: 20px;
+	transition: all 0.1s;
+}
+
+.menu-el:hover{
+	color: #FFF;
+	background: brown;
+	box-shadow: 0px 1px brown;
+	padding-left: 25px;
+  padding-right: 25px;
+}
+
+.inlink:hover{
+	width: 100%;
+}
+
+.inlink{
+	user-select: auto;
+	color: blue;
+	display: inline;
+	font-size: 1em;
+	text-decoration: underline;
+}
+
+a{
+	font-size: 2em;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	display: inline-block;
+	width: 80vw;
+	color: white;
+	cursor: pointer;
+	user-select: none;
+	transition: width 0.5s;
+	text-decoration: none;
+}
+
+a:hover{
+	width: 75vw;
+}
+
+.chap{
+	margin: 0!important;
+	width: 100%;
+}
+
+.num{
+	position: absolute;
+	left: 8vw;
+}
+
+#chapbox a{
+	display: inline-block;
+	width: 100%;
+	background: #EEE;
+	font-size: 1.2em;
+	color: black;
+
+}
+
+#chapbox a:hover{
+	width: 102%;
+	color: white;
+	background: #222;
+}
+
+#chapbox a:nth-child(2n){
+	background: #CCC;
+}
+
+#chapbox a:nth-child(2n):hover{
+	background: #222;
+}
+
+.black{
+	background: #222;
+}
+
+.brown{
+	background: brown;
+}
+
+@media (max-width: 630px){
+	.br{
+		display: inline;
+	}
+
+	.tate{
+		display: none;
+	}
+
+	#chapbox, #voc{
+	width: 93vw;
+	}
+}
+
+@media (max-width: 800px){
+	#logo{
+		display: none!important;
+	}
+
+	ul{
+		width: 50vw;
+	}
+
+	h2{
+		font-size: 1.6em;
+	}
+
+	a{
+		font-size: 1.4em;
+	}
+
+	#menu .menu-el{
+		font-size: 0.7em;
+		display: block;
+	}
+
+	#chapbox .menu-el{
+		padding: 13px;
+	}
+}
+
+@media (min-width: 1920px){
+	#logo{
+		left: -4vw;
+		top: -4vh;
+	}
+}

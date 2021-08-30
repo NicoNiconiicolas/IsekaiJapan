@@ -1,0 +1,1 @@
+document.getElementsByTagName('body')[0].innerHTML += "<div id = 'content'></div>";

@@ -401,6 +401,10 @@ a:hover{
 		display: inline;
 	}
 
+	#bio{
+		width: auto;
+	}
+
 	.tate{
 		display: none;
 	}

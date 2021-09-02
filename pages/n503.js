@@ -16,6 +16,6 @@ document.getElementById('content').innerHTML = ""+
 		"</div>"+
 		"<h2 class='chap'>Chapitre 3</h2>"+
 		"<a href='index.html?p=n5/goi3' target='_blank'>第３語彙一覧表　<span class='tate'>｜</span><br class='br'>　liste de vocabulaire #3</a>"+
-		"<a><span class='num'>#21</span>サンプル　｜　Sample</a>"+
+		"<a href='index.html?p=n5/21' target='_blank'><span class='num'>#21</span>文法　｜　grammaire</a>"+
 	"</div>"+
 "</div>";

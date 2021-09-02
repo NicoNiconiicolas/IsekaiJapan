@@ -14,8 +14,8 @@ document.getElementById('content').innerHTML = ""+
 		"<div class='menu-el' onclick='goto(\"n507\")'>7</div>"+
 		"<div class='menu-el' onclick='goto(\"n508\")'>8</div>"+
 		"</div>"+
-		"<h2 class='chap'>Chapitre 5</h2>"+
+		"<h2 class='chap'>Chapitre 3</h2>"+
 		"<a href='index.html?p=n5/goi5' target='_blank'>第５語彙一覧表　<span class='tate'>｜</span><br class='br'>　liste de vocabulaire #5</a>"+
-		"<a><span class='num'>#41</span>サンプル　｜　Sample</a>"+
+		"<a href='index.html?p=n5/32' target='_blank'><span class='num'>#32</span>文法　｜　grammaire</a>"+
 	"</div>"+
 "</div>";

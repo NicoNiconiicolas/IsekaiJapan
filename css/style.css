@@ -48,7 +48,13 @@
 
 #home-logo{
 	margin-right: 25px;
-	width: 256px;
+	width: 200px;
+	transition: width 0.5s;
+	cursor: pointer;
+}
+
+#home-logo:hover{
+	width: 225px;
 }
 
 html{
@@ -138,12 +144,12 @@ p{
 	font-size: 1.2em;
 }
 
-#menu, #ch-menu{
+#menu2, #menu, #ch-menu{
 	box-shadow: 0px 1px #111;
 	text-align: center;
 	background: #222;
 	color: white;
-	font-size: 1.6em;
+	font-size: 1.5em;
 	cursor: pointer;
 	user-select: none;
 }
@@ -169,7 +175,7 @@ p{
 	background: #222;
 	width: 100vw;
 	bottom: 0;
-	bottom: -9rem;
+	bottom: -13rem;
 	user-select: none;
 }
 
@@ -218,7 +224,7 @@ th{
 
 td{
 	border-radius: 3px;
-	font-size: 1em;
+	font-size: 1.2em;
 	padding: 8px;
 	transition: all 0.1s;
 }
@@ -284,7 +290,7 @@ td{
 }
 
 a{
-	font-size: 2em;
+	font-size: 1.3em;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	display: inline-block;
@@ -298,6 +304,31 @@ a{
 
 a:hover{
 	width: 75vw;
+}
+
+#bio{
+	display: none;
+	animation: fadein 0.5s forwards;
+	position: relative;
+	width: 50vw;
+	margin: auto;
+	padding: 5px;
+	background: #FFEFEF;
+}
+
+.squaaare{
+	margin: auto!important;
+	transition: all 0.5s;
+	cursor: pointer;
+	user-select: none;
+	width: 50vw;
+	position: relative!important;
+}
+
+.squaaare:hover{
+	width: 54vw;
+	height: 7vh;
+	border-radius: 5px;
 }
 
 .chap{
@@ -334,11 +365,35 @@ a:hover{
 }
 
 .black{
-	background: #222;
+	background: #222!important;
 }
 
 .brown{
 	background: brown;
+}
+
+.babyred{
+	background: #A00!important;
+}
+
+.lightred{
+	background: #900!important;
+}
+
+.red{
+	background: #600!important;
+}
+
+.darkred{
+	background: #300!important;
+}
+
+.rainbow{
+	animation: rainbow 1s infinite;
+}
+
+.rainbow:hover{
+	animation: rainbow 0.3s infinite;
 }
 
 @media (max-width: 630px){
@@ -352,6 +407,14 @@ a:hover{
 
 	#chapbox, #voc{
 	width: 93vw;
+	}
+
+	.squaaare{
+		width: auto;
+	}
+
+	.squaaare:hover{
+		width: auto;
 	}
 }
 
@@ -377,6 +440,10 @@ a:hover{
 		display: block;
 	}
 
+	#menu2 .menu-el{
+		display: none;
+	}
+
 	#chapbox .menu-el{
 		padding: 13px;
 	}
@@ -386,5 +453,43 @@ a:hover{
 	#logo{
 		left: -4vw;
 		top: -4vh;
+	}
+}
+
+@keyframes fadein{
+	0%{
+		opacity: 0;
+		top: -20vh;
+	}
+
+	50%{
+		opacity: 0;
+	}
+
+	100%{
+		opacity: 1;
+		top: 0;
+	}
+}
+
+@keyframes rainbow{
+	0%{
+		background: darkorange;
+	}
+
+	25%{
+		background: darkred;
+	}
+
+	50%{
+		background: hotpink;
+	}
+
+	75%{
+		background: darkmagenta;
+	}	
+
+	100%{
+		background: darksalmon;
 	}
 }

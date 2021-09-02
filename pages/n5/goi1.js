@@ -43,15 +43,15 @@ document.getElementById('content').innerHTML = ""+
 "<tr><td>38</td><td>近い</td><td>ちかい</td><td>proche</td>"+
 "<tr><td>39</td><td>ある</td><td>～</td><td>avoir | il y a</td>"+
 "<tr><td>40</td><td>人</td><td>ひと/じん</td><td>une personne</td>"+
-"<tr><td>41</td><td>日本</td><td>にほん</td><td>Japon</td>"+
-"<tr><td>42</td><td>フランス</td><td>～</td><td>France</td>"+
-"<tr><td>43</td><td>アメリカ</td><td>～</td><td>l'Amérique | les États-Unis</td>"+
-"<tr><td>44</td><td>ベルギー</td><td>～</td><td>Belgique</td>"+
+"<tr><td>41</td><td>行く</td><td>いく</td><td>aller</td>"+
+"<tr><td>42</td><td>日本</td><td>にほん</td><td>Japon</td>"+
+"<tr><td>43</td><td>フランス</td><td>～</td><td>France</td>"+
+"<tr><td>44</td><td>アメリカ</td><td>～</td><td>l'Amérique | les États-Unis</td>"+
 "<tr><td>45</td><td>中国</td><td>ちゅうごく</td><td>Chine</td>"+
 "<tr><td>46</td><td>韓国</td><td>かんこく</td><td>Corée du Sud</td>"+
 "<tr><td>47</td><td>テーブル</td><td>～</td><td>table</td>"+
-"<tr><td>48</td><td>ペン</td><td>～</td><td>stylo</td>"+
-"<tr><td>49</td><td>優しい</td><td>やさしい</td><td>gentil | gentille</td>"+
+"<tr><td>48</td><td>ペン</td><td>～</td><td>bic | stylo</td>"+
+"<tr><td>49</td><td>優しい</td><td>やさしい</td><td>gentil</td>"+
 "<tr><td>50</td><td>あなた</td><td>～</td><td>tu | vous (singulier)</td>"+
 "<tr><td>51</td><td>私達</td><td>わたしたち</td><td>nous</td>"+
 "<tr><td>52</td><td>私たち</td><td>わたしたち</td><td>vous (pluriel)</td>"+
@@ -101,6 +101,6 @@ document.getElementById('content').innerHTML = ""+
 "<tr><td>97</td><td>学生</td><td>がくせい</td><td>étudiant</td>"+
 "<tr><td>98</td><td>先生</td><td>せんせい</td><td>professeur | docteur</td>"+
 "<tr><td>99</td><td>元気</td><td>げんき</td><td>énergie | vigeur | santé</td>"+
-"<tr><td>100</td><td>大丈夫</td><td>だいじょうぶ</td><td>tout va bien; être en bonne santé physique et morale</td>"+
+"<tr><td>100</td><td>大丈夫</td><td>だいじょうぶ</td><td>bien aller</td>"+
 "</table>"+
 "</div>"

@@ -279,6 +279,7 @@ td{
 	box-shadow: 0px 1px brown;
 	padding-left: 25px;
   padding-right: 25px;
+  border-radius: 5px;
 }
 
 .inlink:hover{

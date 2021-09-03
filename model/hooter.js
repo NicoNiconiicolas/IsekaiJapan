@@ -2,6 +2,7 @@ document.getElementsByTagName('body')[0].innerHTML += "<img id='logo' src='img/b
 "<div id='menu'>"+
 "<div id='home' class='menu-el' onclick='goto(\"home\")'>Accueil</div>"+
 "<div id='initiation' class='menu-el' onclick='goto(\"initiation\")'>Initiation</div>"+
+"<div id='jlpt' class='menu-el' onclick='goto(\"jlpt\")'>JLPT</div>"+
 "<div id='outils' class='menu-el' onclick='goto(\"outils\")'>Outils</div></div>"+
 "<div id='menu2'><div id='n5' class='menu-el' onclick='goto(\"n5\")'>JLPT N5</div>"+
 "<div id='n4' class='menu-el' onclick='goto(\"404\")'>JLPT N4</div>"+

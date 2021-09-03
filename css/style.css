@@ -17,7 +17,7 @@
 	text-decoration: underline;
 }
 
-.br{
+.br, .br2{
 	display: none;
 }
 
@@ -55,6 +55,10 @@
 
 #home-logo:hover{
 	width: 225px;
+}
+
+#jlpt{
+	display: none;
 }
 
 html{
@@ -397,8 +401,12 @@ a:hover{
 }
 
 @media (max-width: 630px){
-	.br{
+	.br, .br2{
 		display: inline;
+	}
+
+	#jlpt{
+		display: inline-block;
 	}
 
 	#bio{
@@ -427,6 +435,10 @@ a:hover{
 		display: none!important;
 	}
 
+	.br2{
+		display: inline;
+	}
+
 	ul{
 		width: 50vw;
 	}
@@ -439,9 +451,17 @@ a:hover{
 		font-size: 1.4em;
 	}
 
+	#menu{
+		display: grid;
+		grid-template-areas: "home initiation" "jlpt outils";
+	}
+
+	#jlpt{
+		display: inline-block;
+	}
+
 	#menu .menu-el{
 		font-size: 0.7em;
-		display: block;
 	}
 
 	#menu2 .menu-el{

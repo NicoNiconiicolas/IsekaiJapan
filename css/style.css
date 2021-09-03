@@ -402,8 +402,12 @@ a:hover{
 }
 
 @media (max-width: 630px){
-	.br, .br2{
+	.br{
 		display: inline;
+	}
+
+	#voc{
+		font-size: 0.8em;
 	}
 
 	#jlpt{

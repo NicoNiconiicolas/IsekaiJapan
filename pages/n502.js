@@ -4,16 +4,7 @@ document.getElementById('content').innerHTML = ""+
 		"<h1>"+
 			"JLPT N5"+
 		"</h1>"+
-		"<div id='ch-menu'>"+
-		"<div class='menu-el' onclick='goto(\"n5\")'>1</div>"+
-		"<div class='menu-el' onclick='goto(\"n502\")'>2</div>"+
-		"<div class='menu-el' onclick='goto(\"n503\")'>3</div>"+
-		"<div class='menu-el' onclick='goto(\"n504\")'>4</div>"+
-		"<div class='menu-el' onclick='goto(\"n505\")'>5</div>"+
-		"<div class='menu-el' onclick='goto(\"n506\")'>6</div>"+
-		"<div class='menu-el' onclick='goto(\"n507\")'>7</div>"+
-		"<div class='menu-el' onclick='goto(\"n508\")'>8</div>"+
-		"</div>"+
+		"<div id='ch-menu'></div>"+
 		"<h2 class='chap'>Chapitre 2</h2>"+
 		"<a href='index.html?p=n5/goi2' target='_blank'>第２語彙一覧表　<span class='tate'>｜</span><br class='br'>　liste de vocabulaire #2</a>"+
 		"<a href='index.html?p=n5/11' target='_blank'><span class='num'>#11</span>へ　｜　he</a>"+
@@ -27,4 +18,9 @@ document.getElementById('content').innerHTML = ""+
 		"<a href='index.html?p=n5/19' target='_blank'><span class='num'>#19</span>ちゃいけない・じゃいけない　<br class='br'><span class='tate'>｜</span>　cha ikenai・ja ikenai</a>"+
 		"<a href='index.html?p=n5/20' target='_blank'><span class='num'>#20</span>があります　｜　ga arimasu</a>"+
 	"</div>"+
+	"<br><br><br><br><br>"+
 "</div>";
+
+var men = document.createElement('script');
+men.src = 'model/n5menu.js';
+document.getElementsByTagName('body')[0].appendChild(men);

@@ -30,7 +30,7 @@ document.getElementById('content').innerHTML = ""+
 	"<div class='trad'>Pourquoi l'été au Japon est-il si chaud..?</div>"+
 	"<br><h3>exemple #6</h3>"+
 	"<div class='ex'>君はどうしてけがをしたか。</div>"+
-	"<div class='hira'>きみはどうしてけがをしたか。</div>"+
+	"<div class='hira'>きみは<span class='b'>どうして</span>けがをしたか。</div>"+
 	"<div class='trad'>Comment t'es-tu blessé ?</div>"+
 	"<br><h3>exemple #7</h3>"+
 	"<div class='ex'><span class='b'>どうして</span>その事故が起こったのか。</div>"+

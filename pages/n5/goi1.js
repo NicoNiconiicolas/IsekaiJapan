@@ -103,4 +103,4 @@ document.getElementById('content').innerHTML = ""+
 "<tr><td>99</td><td>元気</td><td>げんき</td><td>énergie | vigeur | santé</td>"+
 "<tr><td>100</td><td>大丈夫</td><td>だいじょうぶ</td><td>bien aller</td>"+
 "</table>"+
-"</div>"
+"<br></div>"

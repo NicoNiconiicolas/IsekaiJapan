@@ -104,4 +104,4 @@ document.getElementById('content').innerHTML = ""+
 "<tr><td>#99</td><td>待つ</td><td>まつ</td><td>attendre</td></tr>"+
 "<tr><td>#100</td><td>見る</td><td>みる</td><td>regarder | voir</td></tr>"+
 "</table>"+
-"</div>";
+"<br></div>";

@@ -1,0 +1,10 @@
+document.getElementById('ch-menu').innerHTML += ""+
+"<div class='menu-el' onclick='goto(\"n5\")'>1</div>"+
+"<div class='menu-el' onclick='goto(\"n502\")'>2</div>"+
+"<div class='menu-el' onclick='goto(\"n503\")'>3</div>"+
+"<div class='menu-el' onclick='goto(\"n504\")'>4</div>"+
+"<div class='menu-el' onclick='goto(\"n505\")'>5</div>"+
+"<div class='menu-el' onclick='goto(\"n506\")'>6</div>"+
+"<div class='menu-el' onclick='goto(\"n507\")'>7</div>"+
+"<div class='menu-el' onclick='goto(\"n508\")'>8</div>"+
+"<div class='menu-el' onclick='goto(\"n509\")'>9</div>";

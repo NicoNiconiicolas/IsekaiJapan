@@ -37,16 +37,21 @@
 			document.getElementsByTagName('body')[0].style.background = '#111';
 			break
 
-			case "n5":case "n502":case "n503":
-			case "n504":case "n505":case "n506":
-			case "n507":case "n508":case "n509": 
 			case"n5/1":case"n5/2":case"n5/3":case"n5/4":case"n5/5":
 			case"n5/6":case"n5/7":case"n5/8":case"n5/9":case"n5/10":
 			case"n5/11":case"n5/12":case"n5/13":case"n5/14":case"n5/15":
 			case"n5/16":case"n5/17":case"n5/18":case"n5/19":case"n5/20":
+			case"n5/21":case"n5/22":case"n5/23":case"n5/24":
+			var loadnum = document.createElement('script');
+			loadnum.src = "js/loadnum.js";
+			var index = p.lastIndexOf('/');
+			var num = p.substring(index + 1);
 			case"n5/goi1":case"n5/goi2":case"n5/goi3":case"n5/goi4":
 			case"n5/goi5":case"n5/goi6":case"n5/goi7":case"n5/goi8":
-			case"n5/goi9":case"n5/goi10":case"n5/21":
+			case"n5/goi9":case"n5/goi10":
+			case "n5":case "n502":case "n503":
+			case "n504":case "n505":case "n506":
+			case "n507":case "n508":case "n509": 
 			document.getElementById('n5').style.color = 'white';
 			document.getElementById('n5').style.background = 'brown';
 			document.getElementById('n5').style.boxShadow = '0px 1px brown';
@@ -76,6 +81,10 @@
 		}
 			page.src = 'pages/'+p+'.js';
 			document.getElementsByTagName('body')[0].appendChild(page);
+			document.getElementsByTagName('body')[0].appendChild(loadnum);
+			if (loadnum !== 'undefined'){
+
+			}
 		function goto(page){
 			location.href='index.html?p='+page;
 		}

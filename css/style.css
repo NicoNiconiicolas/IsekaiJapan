@@ -346,6 +346,14 @@ a:hover{
 	left: 8vw;
 }
 
+#num{
+	position: absolute;
+	float: left;
+	padding-top: 4vw;
+	padding-left: 5vw;
+	font-size: 2em;
+}
+
 #chapbox a{
 	display: inline-block;
 	width: 100%;
@@ -442,6 +450,10 @@ a:hover{
 
 	.br2{
 		display: inline;
+	}
+
+	#main{
+		background-size: 15%;
 	}
 
 	ul{

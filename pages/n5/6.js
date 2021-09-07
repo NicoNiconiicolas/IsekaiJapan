@@ -1,6 +1,6 @@
 document.getElementById('content').innerHTML = ""+
 "<div id='main'>"+
-"<h1>で<br>de</h1>"+
+"<div id='num'></div><h1>で<br>de</h1>"+
 "<br><p><span class='gbox'>En bref</span></p><br>"+
 "<p>で renseigne le contexte dans lequel se passe l'action</p>"+
 "<br><p><span class='gbox'>Sens</span></p><br>"+

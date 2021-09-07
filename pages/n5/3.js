@@ -1,6 +1,6 @@
 document.getElementById('content').innerHTML = ""+
 "<div id='main'>"+
-"<h1>を<br>wo</h1>"+
+"<div id='num'></div><h1>を<br>wo</h1>"+
 "<br><p><span class='gbox'>En bref</span></p><br>"+
 "<p>La particule d'objet を indique l'objet auquel s'applique un verbe</p>"+
 "<br><p><span class='gbox'>Utilisation</span></p><br>"+

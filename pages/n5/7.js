@@ -1,6 +1,6 @@
 document.getElementById('content').innerHTML = ""+
 "<div id='main'>"+
-"<h1>が<br>ga</h1>"+
+"<div id='num'></div><h1>が<br>ga</h1>"+
 "<br><p><span class='gbox'>En bref</span></p><br>"+
 "<p>1) indique que ce qui le précède est le sujet</p>"+
 "<p>2) aussi utilisé dans le sens : mais, cependant</p>"+

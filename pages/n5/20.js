@@ -1,6 +1,6 @@
 document.getElementById('content').innerHTML = ""+
 "<div id='main'>"+
-"<h1>があります<br>ga arimasu</h1>"+
+"<div id='num'></div><h1>があります<br>ga arimasu</h1>"+
 "<br><p><span class='gbox'>Sens</span></p><br>"+
 "<p>1) il y a</p>"+
 "<p>2) avoir</p>"+
@@ -17,9 +17,9 @@ document.getElementById('content').innerHTML = ""+
 "<p><span class='b'>présent négatif :</span> ありません ｜ ないです</p>"+
 "<p><span class='b'>passé négatif :</span> ありませんでした ｜ なかったです</p>"+
 "<br><p>・があります ne s'utilise qu'avec des choses non-vivantes</p>"+
-"<p>・Pour les choses vivantes <a href='index.html?p=404' class='inlink'>utilisez がいます</a></p>"+
+"<p>・Pour les choses vivantes <a href='?p=n5/22' class='inlink'>utilisez がいます</a></p>"+
 "<p>・が est remplacé par に pour exprimer qu'il y a quelque chose à un lieu donné</p>"+
-"<p>・が est parfois remplacé par la <a href='index.html?p=404' class='inlink'>particule de contraste は</a></p>"+
+"<p>・が est parfois remplacé par la <a href='?p=404' class='inlink'>particule de contraste は</a></p>"+
 "<br><h3>exemple #1</h3>"+
 "<div class='ex'>人気<span class='b'>がある</span>。</div>"+
 "<div class='hira'>にんきがある。</div>"+

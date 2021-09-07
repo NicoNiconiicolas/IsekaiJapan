@@ -1,6 +1,6 @@
 document.getElementById('content').innerHTML = ""+
 "<div id='main'>"+
-"<h1>どんな<br>donna</h1>"+
+"<div id='num'></div><h1>どんな<br>donna</h1>"+
 "<br><p><span class='gbox'>Sens</span></p><br>"+
 "<p>quel genre de, quelle sorte de</p>"+
 "<br><p><span class='gbox'>Utilisation</span></p><br>"+

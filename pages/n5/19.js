@@ -1,6 +1,6 @@
 document.getElementById('content').innerHTML = ""+
 "<div id='main'>"+
-"<h1>ちゃいけない・じゃいけない<br>cha ikenai・ja ikenai</h1>"+
+"<div id='num'></div><h1>ちゃいけない・じゃいけない<br>cha ikenai・ja ikenai</h1>"+
 "<br><p><span class='gbox'>Sens</span></p><br>"+
 "<p>Ne dois pas, ne peux pas, ne devrais pas</p>"+
 "<br><p><span class='gbox'>Utilisation</span></p><br>"+

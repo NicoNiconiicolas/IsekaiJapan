@@ -1,6 +1,6 @@
 document.getElementById('content').innerHTML = ""+
 "<div id='main'>"+
-"<h1>か<br>ka</h1>"+
+"<div id='num'></div><h1>か<br>ka</h1>"+
 "<br><p><span class='gbox'>En bref</span></p><br>"+
 "<p>La particule か permet de changer une phrase en question</p>"+
 "<br><p><span class='gbox'>Utilisation</span></p><br>"+
@@ -26,7 +26,7 @@ document.getElementById('content').innerHTML = ""+
 "<div class='hira'>げんきですか。</div>"+
 "<div class='trad'>Comment allez-vous ?</div>"+
 "<br><h3>exemple #5</h3>"+
-"<div class='ex'>彼は何才です<span class='b'>か</span>。</div>"+
+"<div class='ex'>彼は何歳です<span class='b'>か</span>。</div>"+
 "<div class='hira'>かれはなんさいですか。</div>"+
 "<div class='trad'>Quel âge a-t-il ?</div>"+
 "<br><h3>exemple #6</h3>"+

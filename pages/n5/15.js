@@ -1,6 +1,6 @@
 document.getElementById('content').innerHTML = ""+
 "<div id='main'>"+
-	"<h1>"+
+	"<div id='num'></div><h1>"+
 		"どうして <br> doushite"+
 	"</h1>"+
 	"<br><p><span class='gbox'>Sens</span></p><br>"+

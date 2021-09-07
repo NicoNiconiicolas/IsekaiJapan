@@ -1,6 +1,6 @@
 document.getElementById('content').innerHTML = ""+
 "<div id='main'>"+
-"<h1>と<br>to</h1>"+
+"<div id='num'></div><h1>と<br>to</h1>"+
 "<br><p><span class='gbox'>Sens</span></p><br>"+
 "<p><span class='b'>1) et</span></p>"+
 "<div class='ex'>猫<span class='b'>と</span>犬</div>"+

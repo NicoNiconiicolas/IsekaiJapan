@@ -1,6 +1,6 @@
 document.getElementById('content').innerHTML = ""+
 "<div id='main'>"+
-"<h1>だろう<br>darou</h1>"+
+"<div id='num'></div><h1>だろう<br>darou</h1>"+
 "<br><p><span class='gbox'>Sens</span></p><br>"+
 "<p>je pense, il semble, probablement, n'est-ce pas ?</p><br>"+
 "<br><p><span class='gbox'>Utilisation</span></p><br>"+

@@ -1,6 +1,6 @@
 document.getElementById('content').innerHTML = ""+
 "<div id='main'>"+
-"<h1>は<br>wa</h1>"+
+"<div id='num'></div><h1>は<br>wa</h1>"+
 "<br><p><span class='gbox'>En bref</span></p><br>"+
 "<p>Ce qui précède は est le thème de la phrase, c'est à dire de quoi il est question dans la phrase.</p>"+
 "<br><p>・Le thème d'une phrase n'en est pas nécessairement le sujet.</p>"+
@@ -39,3 +39,4 @@ document.getElementById('content').innerHTML = ""+
 "<div class='hira'>あのひとはやさしい。</div>"+
 "<div class='trad'>Cette personne est gentille.</div>"+
 "<br></div>";
+

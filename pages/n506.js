@@ -9,6 +9,7 @@ document.getElementById('content').innerHTML = ""+
 		"<a href='index.html?p=n5/goi6' target='_blank'>第６語彙一覧表　<span class='tate'>｜</span><br class='br'>　liste de vocabulaire #6</a>"+
 		"<a href='index.html?p=n5/51' target='_blank'><span class='num'>#51</span>文法　｜　grammaire</a>"+
 	"</div>"+
+	"<br><br><br><br><br>"+
 "</div>";
 
 var men = document.createElement('script');

@@ -10,7 +10,10 @@ document.getElementById('content').innerHTML = ""+
 		"<a href='index.html?p=n5/21' target='_blank'><span class='num'>#21</span>がほしい　｜　ga hoshii</a>"+
 		"<a href='index.html?p=n5/22' target='_blank'><span class='num'>#22</span>がいます　｜　ga imasu</a>"+
 		"<a href='index.html?p=n5/23' target='_blank'><span class='num'>#23</span>ほうがいい　｜　hou ga ii</a>"+
-		"<a href='index.html?p=n5/24' target='_blank'><span class='num'>#24</span>prochainement...</a>"+
+		"<a href='index.html?p=n5/24' target='_blank'><span class='num'>#24</span>一番　｜　ichiban</a>"+
+		"<a href='index.html?p=n5/25' target='_blank'><span class='num'>#25</span>一緒に　｜　issho ni</a>"+
+		"<a href='index.html?p=n5/26' target='_blank'><span class='num'>#26</span>いつも　｜　itsumo</a>"+
+		"<a href='index.html?p=n5/27' target='_blank'><span class='num'>#27</span>en préparation...</a>"+
 	"</div>"+
 	"<br><br><br><br><br>"+
 "</div>";

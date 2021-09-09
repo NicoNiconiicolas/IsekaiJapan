@@ -16,9 +16,9 @@ document.getElementById('content').innerHTML = ""+
 "<div class='ex'>7時<span class='b'>に</span>行く。</div>"+
 "<div class='hira'>しちじにいく。</div>"+
 "<div class='trad'>J'irai à 7h.</div>"+
+"<br><p>Un article permettant de <a href='index?p=404' class='inlink'>saisir le concept exact de に</a> sera disponible dans le futur</p>"+
 "<br><p><span class='gbox'>Utilisation</span></p><br>"+
 "<p>nom commun + に</p>"+
-"<br><p>Un article permettant de <a href='index?p=404' class='inlink'>saisir le concept exact de に</a> sera disponible dans le futur</p>"+
 "<br><h3>exemple #1</h3>"+
 "<div class='ex'>来月は大学<span class='b'>に</span>入る。</div>"+
 "<div class='hira'>らいげつはだいがくにはいる。</div>"+

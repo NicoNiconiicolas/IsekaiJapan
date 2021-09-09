@@ -6,14 +6,18 @@ document.getElementById('content').innerHTML = ""+
 "<br><p><span class='gbox'>Utilisation</span></p><br>"+
 "<p>se construit à partir de la forme en て d'un verbe, voir ci-dessous</p><br>"+
 "<p><span class='b'>si forme en て finit par て :</span></p>"+
-"<p>verbe sans て + ちゃだめ (famillier)</p>"+
-"<p>　　　　　　　　+ ちゃいけない (famillier)</p>"+
-"<p>　　　　　　　+ ちゃいけません (poli)</p><br>"+
+"<div class='conj'>"+
+	"<p>verbe sans て + ちゃだめ (famillier)</p>"+
+	"<p>　　　　　　　　+ ちゃいけない (famillier)</p>"+
+	"<p>　　　　　　　+ ちゃいけません (poli)</p><br>"+
+"</div>"+
 "<p><span class='b'>si forme en て finit par で :</span></p>"+
-"<p>verbe sans で + じゃだめ (famillier)</p>"+
-"<p>　　　　　　　　+ じゃいけない (famillier)</p>"+
-"<p>　　　　　　　+ じゃいけません (poli)</p>"+
-"<p>・Ce point de grammaire est du langage parlé, pour sa version standard voir てはいけません</p>"+
+"<div class='conj'>"+
+	"<p>verbe sans で + じゃだめ (famillier)</p>"+
+	"<p>　　　　　　　　+ じゃいけない (famillier)</p>"+
+	"<p>　　　　　　　+ じゃいけません (poli)</p>"+
+"</div>"+
+"<p>・Ce point de grammaire est du langage parlé, pour sa version standard voir <a class='inlink' href='?p=404'>てはいけません</a></p>"+
 "<br><h3>exemple #1</h3>"+
 "<div class='ex'>寝る前にスマホを見<span class='b'>ちゃダメ</span>よ。</div>"+
 "<div class='hira'>ねるまえにスマホをみちゃだめよ。</div>"+

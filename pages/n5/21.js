@@ -6,9 +6,9 @@ document.getElementById('content').innerHTML = ""+
 "<br><p><span class='gbox'>Utilisation</span></p><br>"+
 "<p>nom commun + がほしい</p>"+
 "<p>　　　　　　+ が欲しい</p>"+
-"<br><p>・L'utilisation du kanji est optionnel</p>"+
-"<br><p>・がほしい s'utilise pour affirmer un désir,<br> l'utiliser tel quel en parlant du désir de quelqu'un reviendrait à affirmer connaître ses vrais désirs,<br> ce qui peut être mal vu selon les circonstances.<br><br>「がほしいと思います」-->\" je pense qu'il veut \" <br>「がほしいと言いました」 --> \" il m'a dit vouloir \"<br>seront alors préférables.</p>"+
-"<br><p>・Sinon utilisez <a href='?p=404' class='inlink'>たがる</a> pour exprimer qu'une personne semble vouloir</p>"+
+"<br><p class='pi'>・L'utilisation du kanji est optionnel</p>"+
+"<br><p class='pi'>・がほしい s'utilise pour affirmer un désir,<br> l'utiliser tel quel en parlant du désir de quelqu'un reviendrait à affirmer connaître ses vrais désirs,<br> ce qui peut être mal vu selon les circonstances.<br><br>「がほしいと思います」-->\" je pense qu'il veut \" <br>「がほしいと言いました」 --> \" il m'a dit vouloir \"<br>seront alors préférables.</p>"+
+"<br><p class='pi'>・Sinon utilisez <a href='?p=404' class='inlink'>たがる</a> pour exprimer qu'une personne semble vouloir</p>"+
 "<br><h3>exemple #1</h3>"+
 "<div class='ex'>もっとお金<span class='b'>が欲しい</span>です。</div>"+
 "<div class='hira'>もっとおかねがほしいです。</div>"+

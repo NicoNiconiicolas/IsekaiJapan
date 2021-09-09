@@ -5,18 +5,22 @@ document.getElementById('content').innerHTML = ""+
 "<p>être</p>"+
 "<br><p><span class='gbox'>Conjugaison</span></p><br>"+
 "<p>Conjugaison de だ (forme familière de です)</p>"+
-"<p><span class='b'>Présent: </span>だ</p>"+
-"<p><span class='b'>Passé: </span>だった</p>"+
-"<p><span class='b'>Présent négatif: </span>ではない</p>"+
-"<p><span class='b'>Passé négatif: </span>ではなかった</p>"+
+"<div class='conj'>"+
+	"<p><span class='b'>Présent: </span>だ</p>"+
+	"<p><span class='b'>Passé: </span>だった</p>"+
+	"<p><span class='b'>Présent négatif: </span>ではない</p>"+
+	"<p><span class='b'>Passé négatif: </span>ではなかった</p>"+
+"</div>"+
 "<br><p>Conjugaison de です (forme polie de だ)</p>"+
-"<p><span class='b'>Présent: </span>です</p>"+
-"<p><span class='b'>Passé: </span>でした</p>"+
-"<p><span class='b'>Présent négatif: </span>ではありません</p>"+
-"<p><span class='b'>Passé négatif: </span>ではありませんでした</p>"+
-"<br><p>・Il n'est pas rare que le だ sois omis en fin de phrase.</p>"+
-"<p>・です est souvent ajouté en fin de phrase pour la rendre polie.</p>"+
-"<p>・Omettre un です en fin de phrase retire également la politesse.</p>"+
+"<div class='conj'>"+
+	"<p><span class='b'>Présent: </span>です</p>"+
+	"<p><span class='b'>Passé: </span>でした</p>"+
+	"<p><span class='b'>Présent négatif: </span>ではありません</p>"+
+	"<p><span class='b'>Passé négatif: </span>ではありませんでした</p>"+
+"</div>"+
+"<br><p class='pi'>・Il n'est pas rare que le だ sois omis en fin de phrase.</p>"+
+"<p class='pi'>・です est souvent ajouté en fin de phrase pour la rendre polie.</p>"+
+"<p class='pi'>・Omettre un です en fin de phrase retire également la politesse.</p>"+
 "<br><h3>exemple #1</h3>"+
 "<div class='ex'>今日は暑い<span class='b'>です</span>ね。</div>"+
 "<div class='hira'>きょうはあついですね。</div>"+

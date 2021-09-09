@@ -2,10 +2,10 @@ document.getElementById('content').innerHTML = ""+
 "<div id='main'>"+
 "<div id='num'></div><h1>は<br>wa</h1>"+
 "<br><p><span class='gbox'>En bref</span></p><br>"+
-"<p>Ce qui précède は est le thème de la phrase, c'est à dire de quoi il est question dans la phrase.</p>"+
-"<br><p>・Le thème d'une phrase n'en est pas nécessairement le sujet.</p>"+
-"<p>・Bien que la particule s'écrive は elle se prononce 'wa' et non pas 'ha'</p>"+
-"<p>・Le thème indiqué par は nécéssite d'être connu, si un mot de question est ou fait partie du sujet on utilisera alors <a href='index.html?p=n5/7' class='inlink'>la particule が</a></p>"+
+"<p>Ce qui précède は est le thème de la phrase, c'est à dire de quoi il est question dans la phrase</p>"+
+"<br><p class='pi'>・Le thème d'une phrase n'en est pas nécessairement le sujet</p>"+
+"<p class='pi'>・Bien que la particule s'écrive は elle se prononce 'wa' et non pas 'ha'</p>"+
+"<p class='pi'>・Le thème indiqué par は nécéssite d'être connu, si un mot de question est ou fait partie du sujet on utilisera alors <a href='index.html?p=n5/7' class='inlink'>la particule が</a></p>"+
 "<br><p>Un futur article traitera des <a href='index.html?p=404' class='inlink'>utilisations particulères de は</a></p>"+
 "<br><h3>exemple #1</h3>"+
 "<div class='ex'>私<span class='b'>は</span>ニコラです。</div>"+

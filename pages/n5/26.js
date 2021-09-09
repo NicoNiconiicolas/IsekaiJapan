@@ -6,9 +6,9 @@ document.getElementById('content').innerHTML = ""+
 "<br><p><span class='gbox'>Utilisation</span></p><br>"+
 "<p>En milieu de phrase ou pour commencer une nouvelle phrase</p>"+
 "<br><p>いつも peut exprimer :</p>"+
-"<br><p>1) Une chose qui arrive tout le temps</p>"+
-"<br><p>2) Une chose qui arrive souvent</p>"+
-"<br><p>3) une habitude</p>"+
+"<br><p class='pi'>1) Une chose qui arrive tout le temps</p>"+
+"<br><p class='pi'>2) Une chose qui arrive souvent</p>"+
+"<br><p class='pi'>3) une habitude</p>"+
 "<br><h3>exemple #1</h3>"+
 "<div class='ex'>彼は<span class='b'>いつも</span>元気ですね。</div>"+
 "<div class='hira'>かれはいつもげんきですね。</div>"+

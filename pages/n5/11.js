@@ -5,7 +5,7 @@ document.getElementById('content').innerHTML = ""+
 "<p>vers, en direction de</p>"+
 "<br><p><span class='gbox'>Utilisation</span></p><br>"+
 "<p>nom commun + へ</p>"+
-"<br><p>・Similaire à <a href='index.html?p=n5/9' class='inlink'>に</a> à la différence que へ indique une direction et non pas une destination</p>"+
+"<br><p class='conj'>・Similaire à <a href='index.html?p=n5/9' class='inlink'>に</a> à la différence que へ indique une direction et non pas une destination</p>"+
 "<br><h3>exemple #1</h3>"+
 "<div class='ex'>学校<span class='b'>へ</span>行く。</div>"+
 "<div class='hira'>がっこうへいく。</div>"+

@@ -8,8 +8,8 @@ document.getElementById('content').innerHTML = ""+
 "<p>nom commun + でしょう</p>"+
 "<p>adjectif な + でしょう</p>"+
 "<p>adjectif い + でしょう</p><br>"+
-"<p>・でしょう est la version polie de <a href='index.html?p=n5/18' class='inlink'>だろう</a></p>"+
-"<p>・parfois abrégé en でしょ</p>"+
+"<p class='pi'>・でしょう est la version polie de <a href='index.html?p=n5/18' class='inlink'>だろう</a></p>"+
+"<p class='pi'>・parfois abrégé en でしょ</p>"+
 "<br><h3>exemple #1</h3>"+
 "<div class='ex'>あの人は誰<span class='b'>でしょう</span>？</div>"+
 "<div class='hira'>あのひとはだれでしょう？</div>"+

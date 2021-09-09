@@ -8,8 +8,8 @@ document.getElementById('content').innerHTML = ""+
 "<p>nom commun + だろう</p>"+
 "<p>adjectif な + だろう</p>"+
 "<p>adjectif い + だろう</p><br>"+
-"<p>・Version familière de <a href='index.html?p=n5/17' class='inlink'>でしょう</a></p>"+
-"<p>・Parfois abrégé en だろ</p>"+
+"<p class='pi'>・Version familière de <a href='index.html?p=n5/17' class='inlink'>でしょう</a></p>"+
+"<p class='pi'>・Parfois abrégé en だろ</p>"+
 "<br><h3>exemple #1</h3>"+
 "<div class='ex'>彼はもうすぐ来る<span class='b'>だろう</span>。</div>"+
 "<div class='hira'>かれはもうすぐくるだろう。</div>"+

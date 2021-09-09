@@ -5,7 +5,7 @@ document.getElementById('content').innerHTML = ""+
 "<p>comment, de quel façon, par quel moyen</p>"+
 "<br><p><span class='gbox'>Utilisation</span></p><br>"+
 "<p>En début ou milieu de phrase</p>"+
-"<br><p>・ どうやって n'a qu'un seul sens contrairement a <a href='index.html?p=n5/15' class='inlink'>どうして</a></p>"+
+"<br><p class='conj'>・ どうやって n'a qu'un seul sens contrairement a <a href='index.html?p=n5/15' class='inlink'>どうして</a></p>"+
 "<br><h3>exemple #1</h3>"+
 "<div class='ex'>駅まで<span class='b'>どうやって</span>行きますか。</div>"+
 "<div class='hira'>えきまでどうやっていきますか。</div>"+

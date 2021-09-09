@@ -5,9 +5,9 @@ document.getElementById('content').innerHTML = ""+
 "<p>La particule d'objet を indique l'objet auquel s'applique un verbe</p>"+
 "<br><p><span class='gbox'>Utilisation</span></p><br>"+
 "<p>nom commun (le COD) + を + verbe</p>"+
-"<br><p>・を s'utilise uniquement avec les verbes transitifs</p>"+
-"<p>Un verbe transitif est un verbe dont l'action est exécutée par un sujet envers un objet ou une personne tier.</p>"+
-"<p>à l'inverse un verbe intransitif s'appliquera au sujet lui-même, on utilisera alors <a href='index.html?p=n5/7' class='inlink'>la particule が</a> à la place.</p>"+
+"<br><p class='pi'>・を s'utilise uniquement avec les verbes transitifs</p>"+
+"<p class='pi'>・Un verbe transitif est un verbe dont l'action est exécutée par un sujet envers un objet ou une personne tier.</p>"+
+"<p class='pi'>・À l'inverse un verbe intransitif s'appliquera au sujet lui-même, on utilisera alors <a href='index.html?p=n5/7' class='inlink'>la particule が</a> à la place.</p>"+
 "<br><p>Un futur article traitera d'une <a href='index.html?p=404' class='inlink'>autre utilisation de を</a></p>"+
 "<br><h3>exemple #1</h3>"+
 "<div class='ex'>日本語<span class='b'>を</span>べんきょうしています。</div>"+

@@ -7,19 +7,23 @@ document.getElementById('content').innerHTML = ""+
 "<br><p><span class='gbox'>Utilisation</span></p><br>"+
 "<p>nom commun + が + あります</p>"+
 "<br><p>conjugaison de ある familier : </p>"+
-"<p><span class='b'>présent :</span> ある</p>"+
-"<p><span class='b'>passé :</span> あった</p>"+
-"<p><span class='b'>présent négatif :</span> ない</p>"+
-"<p><span class='b'>passé négatif :</span> なかった</p>"+
+"<div class='conj'>"+
+	"<p><span class='b'>présent :</span> ある</p>"+
+	"<p><span class='b'>passé :</span> あった</p>"+
+	"<p><span class='b'>présent négatif :</span> ない</p>"+
+	"<p><span class='b'>passé négatif :</span> なかった</p>"+
+"</div>"+
 "<br><p>conjugaison de ある poli : </p>"+
-"<p><span class='b'>présent :</span> あります</p>"+
-"<p><span class='b'>passé :</span> ありました</p>"+
-"<p><span class='b'>présent négatif :</span> ありません ｜ ないです</p>"+
-"<p><span class='b'>passé négatif :</span> ありませんでした ｜ なかったです</p>"+
-"<br><p>・があります ne s'utilise qu'avec des choses non-vivantes</p>"+
-"<p>・Pour les choses vivantes <a href='?p=n5/22' class='inlink'>utilisez がいます</a></p>"+
-"<p>・が est remplacé par に pour exprimer qu'il y a quelque chose à un lieu donné</p>"+
-"<p>・が est parfois remplacé par la <a href='?p=404' class='inlink'>particule de contraste は</a></p>"+
+"<div class='conj'>"+
+	"<p><span class='b'>présent :</span> あります</p>"+
+	"<p><span class='b'>passé :</span> ありました</p>"+
+	"<p><span class='b'>présent négatif :</span> ありません ｜ ないです</p>"+
+	"<p><span class='b'>passé négatif :</span> ありませんでした ｜ なかったです</p>"+
+"</div>"+
+"<br><p class='pi'>・があります ne s'utilise qu'avec des choses non-vivantes</p>"+
+"<p class='pi'>・Pour les choses vivantes <a href='?p=n5/22' class='inlink'>utilisez がいます</a></p>"+
+"<p class='pi'>・が est remplacé par に pour exprimer qu'il y a quelque chose à un lieu donné</p>"+
+"<p class='pi'>・が est parfois remplacé par la <a href='?p=404' class='inlink'>particule de contraste は</a></p>"+
 "<br><h3>exemple #1</h3>"+
 "<div class='ex'>人気<span class='b'>がある</span>。</div>"+
 "<div class='hira'>にんきがある。</div>"+

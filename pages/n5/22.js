@@ -7,19 +7,23 @@ document.getElementById('content').innerHTML = ""+
 "<br><p><span class='gbox'>Utilisation</span></p><br>"+
 "<p>nom commun + が + います</p>"+
 "<br><p>conjugaison de いる famillier :</p>"+
-"<p><span class='b'>présent :</span> いる</p>"+
-"<p><span class='b'>passé :</span> いた</p>"+
-"<p><span class='b'>présent négatif :</span> いない</p>"+
-"<p><span class='b'>passé négatif :</span> いなかった</p>"+
+"<div class='conj'>"+
+	"<p><span class='b'>présent :</span> いる</p>"+
+	"<p><span class='b'>passé :</span> いた</p>"+
+	"<p><span class='b'>présent négatif :</span> いない</p>"+
+	"<p><span class='b'>passé négatif :</span> いなかった</p>"+
+"</div>"+
 "<br><p>conjugaison de いる poli :</p>"+
-"<p><span class='b'>présent :</span> います</p>"+
-"<p><span class='b'>passé :</span> いました</p>"+
-"<p><span class='b'>présent négatif :</span> いません ｜ いないです</p>"+
-"<p><span class='b'>passé négatif :</span> いませんでした ｜ いなかったです</p>"+
-"<br><p>・がいます ne s'utilise qu'avec des choses vivantes</p>"+
-"<p>・Pour les choses non-vivantes utilisez <a href='?p=n5/20' class='inlink'>があります</a></p>"+
-"<p>・が est remplacé par に pour exprimer qu'il y a quelque chose à un lieu donné</p>"+
-"<p>・が est parfois remplacé par la <a href='?p=404' class='inlink'>particule de contraste は</a></p>"+
+"<div class='conj'>"+
+	"<p><span class='b'>présent :</span> います</p>"+
+	"<p><span class='b'>passé :</span> いました</p>"+
+	"<p><span class='b'>présent négatif :</span> いません ｜ いないです</p>"+
+	"<p><span class='b'>passé négatif :</span> いませんでした ｜ いなかったです</p>"+
+"</div>"+
+"<br><p class='pi'>・がいます ne s'utilise qu'avec des choses vivantes</p>"+
+"<p class='pi'>・Pour les choses non-vivantes utilisez <a href='?p=n5/20' class='inlink'>があります</a></p>"+
+"<p class='pi'>・が est remplacé par に pour exprimer qu'il y a quelque chose à un lieu donné</p>"+
+"<p class='pi'>・が est parfois remplacé par la <a href='?p=404' class='inlink'>particule de contraste は</a></p>"+
 "<br><h3>exemple #1</h3>"+
 "<div class='ex'>シャワーには誰か<span class='b'>がいます</span>。</div>"+
 "<div class='hira'>シャワーにだれかがいます。</div>"+

@@ -8,7 +8,7 @@ document.getElementById('content').innerHTML = ""+
 "<p>nom commun + だけ</p>"+
 "<p>adjectif な + なだけ</p>"+
 "<p>adjectif い + だけ</p>"+
-"<br><p>・ だけ à une connotation neutre ou positive, pas négative</p>"+
+"<br><p class='conj'>・ だけ à une connotation neutre ou positive, pas négative</p>"+
 "<br><h3>exemple #1</h3>"+
 "<div class='ex'>私の持っているお金はこれ<span class='b'>だけ</span>だ。</div>"+
 "<div class='hira'>わたしのもっているおかねはこれだけだ。</div>"+

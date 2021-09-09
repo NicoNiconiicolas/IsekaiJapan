@@ -6,8 +6,8 @@ document.getElementById('content').innerHTML = ""+
 "<br><p><span class='gbox'>Utilisation</span></p><br>"+
 "<p>en milieu de phrase</p>"+
 "<p>en début de la prochaine phrase</p><br>"+
-"<p>・À ne pas confondre avec ても/でも (conjugaison), qui a un sens différent</p>"+
-"<p>・Très similaire à しかし, qui lui à une nuance un peu plus forte</p>"+
+"<p class='pi'>・À ne pas confondre avec ても/でも (conjugaison), qui a un sens différent</p>"+
+"<p class='pi'>・Très similaire à しかし, qui lui à une nuance un peu plus forte</p>"+
 "<br><h3>exemple #1</h3>"+
 "<div class='ex'>私は魚が好すきです。<span class='b'>でも</span>肉も好きです。</div>"+
 "<div class='hira'>わたしはさかながすきです。でもにくもすきです。</div>"+

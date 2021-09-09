@@ -25,11 +25,11 @@ document.getElementById('content').innerHTML = ""+
 "<p>nom commun + で</p>"+
 "<br><h3>exemple #1</h3>"+
 "<div class='ex'>じてんしゃ<span class='b'>で</span>行きます。</div>"+
-"<div class='hira'>じてんしゃをつかう。</div>"+
+"<div class='hira'>じてんしゃでいきます。</div>"+
 "<div class='trad'>J'irai à vélo.</div>"+
 "<br><h3>exemple #2</h3>"+
 "<div class='ex'>みんな<span class='b'>で</span>行こう！</div>"+
-"<div class='hira'>みんなといっしょにいこう！</div>"+
+"<div class='hira'>みんなでいこう！</div>"+
 "<div class='trad'>Allons-y tous ensemble !</div>"+
 "<br><h3>exemple #3</h3>"+
 "<div class='ex'>たまに一人<span class='b'>で</span>カラオケに行きます。</div>"+

@@ -13,8 +13,8 @@ document.getElementById('content').innerHTML = ""+
 "<br><p><span class='gbox'>Utilisation</span></p><br>"+
 "<p><span class='b'>et :</span> nom commun + と + nom commun</p>"+
 "<p><span class='b'>avec :</span> nom commun + と</p>"+
-"<br><p>・ On ne <span class='b'>peut pas</span> utiliser と dans le sens \"et\" pour relier 2 phrases</p>"+
-"<p>par exemple : j'ai mangé et j'ai bu.</p>"+
+"<br><p class='conj'>・ On ne <span class='b'>peut pas</span> utiliser と dans le sens \"et\" pour relier 2 phrases<br>"+
+"par exemple : j'ai mangé et j'ai bu<br>est une utilisation incorrecte</p>"+
 "<br><p>Par ici une <a href='index.html?p=404' class='inlink'>autre utilisation de と (N4)</a></p>"+
 "<br><h3>exemple #1</h3>"+
 "<div class='ex'>お母さん<span class='b'>と</span>買い物に行った。</div>"+

@@ -84,7 +84,7 @@
 			page.src = 'pages/'+p+'.js';
 			document.getElementsByTagName('body')[0].appendChild(page);
 			if (typeof loadnum != 'undefined'){
-				document.getElementsByTagName('body')[0].appendChild(loadnum);
+				setTimeout(function(){document.getElementsByTagName('body')[0].appendChild(loadnum)}, 500);
 			}
 		function goto(page){
 			location.href='index.html?p='+page;

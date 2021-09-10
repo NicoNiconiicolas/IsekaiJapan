@@ -8,8 +8,8 @@ document.getElementById('content').innerHTML = ""+
 "<div class='conj'>"+
 	"<p><span class='b'>Présent: </span>だ</p>"+
 	"<p><span class='b'>Passé: </span>だった</p>"+
-	"<p><span class='b'>Présent négatif: <br></span>じゃない ｜ ではない</p>"+
-	"<p><span class='b'>Passé négatif: <br></span>じゃなかった　｜ ではなかった</p>"+
+	"<p><span class='b'>Présent négatif: <br></span>じゃない<br>ではない</p>"+
+	"<p><span class='b'>Passé négatif: <br></span>じゃなかった<br>ではなかった</p>"+
 "</div>"+
 "<br><p>Conjugaison de です (forme polie de だ)</p>"+
 "<div class='conj'>"+
@@ -22,7 +22,7 @@ document.getElementById('content').innerHTML = ""+
 "<p class='pi'>・です est souvent ajouté en fin de phrase pour la rendre polie.</p>"+
 "<p class='pi'>・Omettre un です en fin de phrase retire également la politesse.</p>"+
 "<p class='pi'>・Le は dans la négation est en réalité la particule は on la pronnonce donc ' wa '.</p>"+
-"<p class='pi'>・Dans sa forme négative le じゃ est une contraction de では utilisé courrament à l'oral.</p>"+
+"<p class='pi'>・Dans sa forme négative le じゃ est une contraction de では utilisé couramment à l'oral.</p>"+
 "<br><h3>exemple #1</h3>"+
 "<div class='ex'>今日は暑い<span class='b'>です</span>ね。</div>"+
 "<div class='hira'>きょうはあついですね。</div>"+

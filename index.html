@@ -42,7 +42,8 @@
 			case"n5/11":case"n5/12":case"n5/13":case"n5/14":case"n5/15":
 			case"n5/16":case"n5/17":case"n5/18":case"n5/19":case"n5/20":
 			case"n5/21":case"n5/22":case"n5/23":case"n5/24":case"n5/25":
-			case"n5/26":case"n5/27":
+			case"n5/26":case"n5/27":case"n5/28":case"n5/29":case"n5/30":
+			case"n5/31":
 			var loadnum = document.createElement('script');
 			loadnum.src = "js/loadnum.js";
 			var index = p.lastIndexOf('/');
@@ -82,9 +83,8 @@
 		}
 			page.src = 'pages/'+p+'.js';
 			document.getElementsByTagName('body')[0].appendChild(page);
-			document.getElementsByTagName('body')[0].appendChild(loadnum);
-			if (loadnum !== 'undefined'){
-
+			if (typeof loadnum != 'undefined'){
+				document.getElementsByTagName('body')[0].appendChild(loadnum);
 			}
 		function goto(page){
 			location.href='index.html?p='+page;

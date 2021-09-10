@@ -21,6 +21,18 @@
 	display: none;
 }
 
+#discord{
+	cursor: pointer;
+	position: fixed;
+	right: 15px;
+	width: 64px;
+	transition: 0.2s;
+}
+
+#discord:hover{
+	width: 70px;
+}
+
 .gbox{
 	padding: 10px;
 	border-left: ridge 5px #A66;

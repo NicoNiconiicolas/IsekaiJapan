@@ -17,7 +17,7 @@ document.getElementById('content').innerHTML = ""+
 "<audio loop id=\"bgmplayer5\">"+
 	  "<source loop src=\"sound/n5.mp3\" type=\"audio/mpeg\">"+
 "</audio>"+
-"<div id='main'><h1>JLPT</h1>"+
+"<div id='main'><h1>JLPT</h1><br>"+
 "<h2 class='squaaare babyred' onmouseout='player5.pause()' onmouseover='player5.play()' onclick='location.href=\"index.html?p=n5\"'>JLPT N5 ➡</h2>"+
 	"<h2 class='squaaare red' onmouseout='player4.pause()' onmouseover='player4.play()' onclick='location.href=\"index.html?p=404\"'>JLPT N4 ➡</h2>"+
 	"<h2 class='squaaare darkred' onmouseout='player3.pause()' onmouseover='player3.play()' onclick='location.href=\"index.html?p=404\"'>JLPT N3 ➡</h2>"+

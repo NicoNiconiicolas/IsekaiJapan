@@ -53,12 +53,16 @@
 
 .conj, .pi{
 	background: #333;
-	color: pink;
+	color: white;
 	padding: 5px;
 	max-width: 50vw;
 	margin: auto;
 	border-radius: 5px;
 	border: ridge #555 4px;
+}
+
+.conj .b{
+	color: lightblue;
 }
 
 .pi{
@@ -78,13 +82,13 @@
 
 #home-logo{
 	margin-right: 25px;
-	width: 200px;
+	width: 150px;
 	transition: width 0.5s;
 	cursor: pointer;
 }
 
 #home-logo:hover{
-	width: 225px;
+	width: 175px;
 }
 
 #jlpt{
@@ -95,6 +99,7 @@ html{
 	overflow-x: hidden;
 	position: relative;
   min-height: 100vh;
+  font-family: arial;
 }
 
 body{
@@ -103,10 +108,10 @@ body{
 	margin: 0;
   position: relative;
   min-height: 100vh;
-  font-family: elegant;
 }
 
 h1{
+	font-size: 1.5em;
 	padding: 20px;
 	margin: 0;
 }
@@ -117,19 +122,15 @@ ul{
 }
 
 li{
-	font-size: 1.3em;
+	font-size: 1.2em;
 }
 
 #banner{
 	background: rgba(0,0,0,0.33);
 }
 
-h2, h3, p{
-	font-family: "Time New Roman";
-}
-
 h2{
-	font-size: 2em;
+	font-size: 1.2em;
 }
 
 h2:not(:first-child){
@@ -142,7 +143,7 @@ h2:not(:first-child){
 }
 
 p{
-	font-size: 1.3em;
+	font-size: 1.2em;
 	margin: 10px;
 	margin-left: 20px;
 	margin-right: 20px;
@@ -165,7 +166,6 @@ p{
 .isekai{
 	user-select: none;
 	color: white;
-	font-family: isekai;
 	font-size: 1.2em;
 	text-shadow: -3px 0px black;
 }
@@ -174,7 +174,6 @@ p{
 	user-select: none;
 	color: white;
 	text-shadow: -3px 0px black;
-	font-family: elegant;
 	font-size: 1.2em;
 }
 
@@ -183,7 +182,7 @@ p{
 	text-align: center;
 	background: #222;
 	color: white;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	cursor: pointer;
 	user-select: none;
 }
@@ -216,7 +215,7 @@ p{
 .ex, .trad, .hira{
 	padding: 10px;
 	background: #EDD;
-	font-size: 1.3em;
+	font-size: 1.2em;
 	width: 75vw;
 	margin: auto;
 	margin-top: 5px;
@@ -226,6 +225,10 @@ p{
 .ex{
 	border: solid 1px #ABB;
 	color: #333;
+}
+
+h3{
+	font-size: 1em;
 }
 
 .hira{
@@ -258,14 +261,13 @@ th{
 
 td{
 	border-radius: 3px;
-	font-size: 1.2em;
+	font-size: 1.1em;
 	padding: 8px;
 	transition: all 0.1s;
 }
 
 #voc{
 	border-spacing: 2px 2px;
-	font-family: "Yu Mincho";
 }
 
 #voc th{
@@ -292,7 +294,7 @@ td{
 }
 
 #main td{
-	font-size: 1.3em;
+	font-size: 1.2em;
 	color: #770000;
 	padding: 5px;
 }
@@ -325,7 +327,7 @@ td{
 }
 
 a{
-	font-size: 1.3em;
+	font-size: 1.2em;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	display: inline-block;
@@ -361,8 +363,8 @@ a:hover{
 }
 
 .squaaare:hover{
-	width: 54vw;
-	height: 7vh;
+	width: 53vw;
+	height: 5vh;
 	border-radius: 5px;
 }
 
@@ -381,7 +383,7 @@ a:hover{
 	float: left;
 	padding-top: 4vw;
 	padding-left: 5vw;
-	font-size: 2em;
+	font-size: 1.5em;
 }
 
 #chapbox a{
@@ -488,10 +490,6 @@ a:hover{
 
 	ul{
 		width: 50vw;
-	}
-
-	h2{
-		font-size: 1.6em;
 	}
 
 	a{

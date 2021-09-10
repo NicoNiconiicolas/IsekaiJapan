@@ -19,6 +19,7 @@ document.getElementById('content').innerHTML = ""+
 "</audio>"+
 "<div id='banner'>"+
 	"<h1>"+
+"<img onclick='location.href=\"https://discord.gg/vNkYpzUmQ6\"' id='discord' src='img/discord.png'>"+
 	"<img onclick='fart()' id='home-logo' src='img/logo-2.png'><br>"+
 		"<span class='isekai'>異世界ジャパン</span><br>"+
 		"<span class='elegant'>Isekai Japan</span>"+
@@ -66,7 +67,69 @@ player4.volume=0.1;
 player5.volume=1;
 
 function fart(){
-		var n = Math.floor(Math.random() * 1) + 1;
-		document.getElementById("fartplayer").src = "sound/fart"+n+".mp3";
+		var n = Math.floor(Math.random() * 25) + 1;
+		switch(n){
+			case 1:
+			window.open('https://www.youtube.com/watch?v=_S7WEVLbQ-Y');
+			case 2:
+			window.open('youtube.com/watch?v=tx2LXzM-Q2A');
+			case 3:
+			window.open('https://youtube.com/watch?v=21LVdoK8OUw');
+			case 4:
+			window.open('https://www.youtube.com/watch?v=_tie8TIoIgk');
+			case 5:
+			window.open('https://www.youtube.com/watch?v=sAinhgAjcwQ');
+			case 6:
+			window.open('https://www.youtube.com/watch?v=5pUSX9kvARQ');
+			case 7:
+			window.open('https://www.youtube.com/watch?v=VTPVqSit0gI');
+			case 8:
+			window.open('https://www.youtube.com/watch?v=6xU6nXbRX8k');
+			case 9:
+			window.open('https://www.youtube.com/watch?v=x_AxbGZBAV0');
+			case 10:
+			window.open('https://www.youtube.com/watch?v=wZTUXoL5byo');
+			case 11:
+			window.open('https://www.youtube.com/watch?v=Q4is4c43yVU');
+			case 12:
+			window.open('https://www.youtube.com/watch?v=AHPV-dJapTs');
+			case 13:
+			window.open('https://www.youtube.com/watch?v=XVmTf6RooKM');
+			case 14:
+			window.open('https://www.youtube.com/watch?v=buc64u6Q_oA');
+			case 15:
+			window.open('https://www.youtube.com/watch?v=AOHD8HDu3dI');
+			case 16:
+			window.open('https://www.youtube.com/watch?v=VewLuzB-eS4');
+			case 17:
+			window.open('https://www.youtube.com/watch?v=IjtlsVEagzM');
+			case 18:
+			window.open('https://www.youtube.com/watch?v=2bfCkz8HfZ8');
+			case 19:
+			window.open('https://www.youtube.com/watch?v=qcy-XX0-Ez8');
+			case 20:
+			window.open('https://www.youtube.com/watch?v=8ViqcqG50gA');
+			case 21:
+			window.open('https://www.youtube.com/watch?v=uWn2Elk_rR4');
+			case 22:
+			window.open('https://www.youtube.com/watch?v=s5_tkiP6WlU');
+			case 23:
+			window.open('https://www.youtube.com/watch?v=6bdHBoG2bLY');
+			case 24:
+			window.open('https://www.youtube.com/watch?v=AXrHbrMrun0');
+			case 25:
+			window.open('https://www.youtube.com/watch?v=DRZ3F5VqseU');
+
+
+
+
+
+
+
+
+
+
+
+		}
 		fartplayer.play();
 	}

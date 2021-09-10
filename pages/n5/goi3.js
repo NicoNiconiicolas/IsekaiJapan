@@ -53,6 +53,6 @@ document.getElementById('content').innerHTML = ""+
 "<tr><td>#47</td><td>空</td><td>そら</td><td>ciel</td></tr>"+
 "<tr><td>#48</td><td>授業</td><td>じゅぎょう</td><td>leçon ｜ cours</td></tr>"+
 "<tr><td>#49</td><td>お酒</td><td>おさけ</td><td>L'alcool</td></tr>"+
-"<tr><td>#50</td><td>テレビ</td><td>～</td><td>Télévision</td></tr>"+
+"<tr><td>#50</td><td>テレビ</td><td>～</td><td>télévision</td></tr>"+
 "</table>"+
 "<br></div>";

@@ -13,7 +13,10 @@ document.getElementById('content').innerHTML = ""+
 		"<a href='index.html?p=n5/24' target='_blank'><span class='num'>#24</span>一番　｜　ichiban</a>"+
 		"<a href='index.html?p=n5/25' target='_blank'><span class='num'>#25</span>一緒に　｜　issho ni</a>"+
 		"<a href='index.html?p=n5/26' target='_blank'><span class='num'>#26</span>いつも　｜　itsumo</a>"+
-		"<a href='index.html?p=n5/27' target='_blank'><span class='num'>#27</span>en préparation...</a>"+
+		"<a href='index.html?p=n5/27' target='_blank'><span class='num'>#27</span>か～か ｜ ka～ka</a>"+
+		"<a href='index.html?p=n5/28' target='_blank'><span class='num'>#28</span>から ｜ kara</a>"+
+		"<a href='index.html?p=n5/29' target='_blank'><span class='num'>#29</span>かた ｜ kata</a>"+
+		"<a href='index.html?p=n5/30' target='_blank'><span class='num'>#30</span>けど ｜ kedo</a>"+
 	"</div>"+
 	"<br><br><br><br><br>"+
 "</div>";

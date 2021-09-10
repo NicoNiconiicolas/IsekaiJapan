@@ -47,5 +47,5 @@ document.getElementById('content').innerHTML = ""+
 "<br><h3>exemple #10</h3>"+
 "<div class='ex'>20歳になっても、お酒を飲まない<span class='b'>方がいい</span>と思います。</div>"+
 "<div class='hira'>はたちになっても、おさけをのまないほうがいいとおもいます。</div>"+
-"<div class='trad'>Bien que tu aies maintenant 20 ans, il vaudra mieux ne pas boire d'alcool </div>"+
+"<div class='trad'>Bien que tu aies maintenant 20 ans, il vaudrait mieux ne pas boire d'alcool </div>"+
 "<br></div>";

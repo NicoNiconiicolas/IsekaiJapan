@@ -5,13 +5,13 @@ document.getElementById('content').innerHTML = ""+
 "<p>Ne dois pas, ne peux pas, ne devrais pas</p>"+
 "<br><p><span class='gbox'>Utilisation</span></p><br>"+
 "<p>se construit à partir de la forme en て d'un verbe, voir ci-dessous</p><br>"+
-"<p><span class='b'>si forme en て finit par て :</span></p>"+
+"<p>si forme en て finit par て :</p>"+
 "<div class='conj'>"+
 	"<p>verbe sans て + ちゃだめ (famillier)</p>"+
 	"<p>　　　　　　　　+ ちゃいけない (famillier)</p>"+
 	"<p>　　　　　　　+ ちゃいけません (poli)</p><br>"+
 "</div>"+
-"<p><span class='b'>si forme en て finit par で :</span></p>"+
+"<p>si forme en て finit par で :</p>"+
 "<div class='conj'>"+
 	"<p>verbe sans で + じゃだめ (famillier)</p>"+
 	"<p>　　　　　　　　+ じゃいけない (famillier)</p>"+

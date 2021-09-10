@@ -72,7 +72,7 @@ function fart(){
 			case 1:
 			window.open('https://www.youtube.com/watch?v=_S7WEVLbQ-Y');
 			case 2:
-			window.open('youtube.com/watch?v=tx2LXzM-Q2A');
+			window.open('https://youtube.com/watch?v=tx2LXzM-Q2A');
 			case 3:
 			window.open('https://youtube.com/watch?v=21LVdoK8OUw');
 			case 4:

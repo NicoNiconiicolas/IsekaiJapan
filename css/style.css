@@ -567,6 +567,12 @@ a:hover{
 	}
 }
 
+@media (max-width: 1150px){
+	#logo{
+		left: -12vh;
+	}
+}
+
 @media (min-width: 1920px){
 	#logo{
 		left: -4vw;

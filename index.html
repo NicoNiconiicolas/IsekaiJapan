@@ -13,81 +13,96 @@
 	<script src="model/mooner.js"></script>
 	<script src="model/footer.js"></script>
 </body>
-	<script>
-		var p = $_GET('p');
-		if(p != null){
-			document.title = '異世界ジャパン | '+p;
+<script>
+	var searchbar = document.getElementById("searchbar");
+	searchbar.addEventListener("keyup", function(event) {
+	  	if (event.keyCode === 13) {
+	  		var userinput = searchbar.value;
+	  		location.href= '?p=search&q='+userinput;
 		}
-		var page = document.createElement('script');
-		switch(p){
-			case null:
-			p = "home";
-			case "home":
-			document.getElementById('home').style.color = 'white';
-			document.getElementById('home').style.background = 'brown';
-			document.getElementById('home').style.boxShadow = '0px 1px brown';
-			document.getElementById('home').style.borderRadius =  '5px';
-			break
+	});
 
-			case "jlpt":
-			document.getElementById('jlpt').style.color = 'white';
-			document.getElementById('jlpt').style.background = 'brown';
-			document.getElementById('jlpt').style.boxShadow = '0px 1px brown';
-			document.getElementById('jlpt').style.borderRadius =  '5px';
-			document.getElementsByTagName('body')[0].style.background = '#111';
-			break
+	function gotosearch(){
+		var userinput = searchbar.value;
+	  	location.href= '?p=search&q='+userinput;
+	}
+	var p = $_GET('p');
+	if(p != null){
+		document.title = '異世界ジャパン | '+p;
+	}
+	var page = document.createElement('script');
+	switch(p){
+		case null:
+		p = "home";
+		case "home":
+		document.getElementById('home').style.color = 'white';
+		document.getElementById('home').style.background = 'brown';
+		document.getElementById('home').style.boxShadow = '0px 1px brown';
+		document.getElementById('home').style.borderRadius =  '5px';
+		break
 
-			case"n5/1":case"n5/2":case"n5/3":case"n5/4":case"n5/5":
-			case"n5/6":case"n5/7":case"n5/8":case"n5/9":case"n5/10":
-			case"n5/11":case"n5/12":case"n5/13":case"n5/14":case"n5/15":
-			case"n5/16":case"n5/17":case"n5/18":case"n5/19":case"n5/20":
-			case"n5/21":case"n5/22":case"n5/23":case"n5/24":case"n5/25":
-			case"n5/26":case"n5/27":case"n5/28":case"n5/29":case"n5/30":
-			case"n5/31":
-			var loadnum = document.createElement('script');
-			loadnum.src = "js/loadnum.js";
-			var index = p.lastIndexOf('/');
-			var num = p.substring(index + 1);
-			case"n5/goi1":case"n5/goi2":case"n5/goi3":case"n5/goi4":
-			case"n5/goi5":case"n5/goi6":case"n5/goi7":case"n5/goi8":
-			case"n5/goi9":case"n5/goi10":
-			case "n5":case "n502":case "n503":
-			case "n504":case "n505":case "n506":
-			case "n507":case "n508":case "n509": 
-			document.getElementById('n5').style.color = 'white';
-			document.getElementById('n5').style.background = 'brown';
-			document.getElementById('n5').style.boxShadow = '0px 1px brown';
-			document.getElementById('n5').style.borderRadius =  '5px';
-			document.getElementsByTagName('body')[0].style.background = '#111';
-			break
+		case "jlpt":
+		document.getElementById('jlpt').style.color = 'white';
+		document.getElementById('jlpt').style.background = 'brown';
+		document.getElementById('jlpt').style.boxShadow = '0px 1px brown';
+		document.getElementById('jlpt').style.borderRadius =  '5px';
+		document.getElementsByTagName('body')[0].style.background = '#111';
+		break
+	
+		case"n5/1":case"n5/2":case"n5/3":case"n5/4":case"n5/5":
+		case"n5/6":case"n5/7":case"n5/8":case"n5/9":case"n5/10":
+		case"n5/11":case"n5/12":case"n5/13":case"n5/14":case"n5/15":
+		case"n5/16":case"n5/17":case"n5/18":case"n5/19":case"n5/20":
+		case"n5/21":case"n5/22":case"n5/23":case"n5/24":case"n5/25":
+		case"n5/26":case"n5/27":case"n5/28":case"n5/29":case"n5/30":
+		case"n5/31":
+		var loadnum = document.createElement('script');
+		loadnum.src = "js/loadnum.js";
+		var index = p.lastIndexOf('/');
+		var num = p.substring(index + 1);
+		case"n5/goi1":case"n5/goi2":case"n5/goi3":case"n5/goi4":
+		case"n5/goi5":case"n5/goi6":case"n5/goi7":case"n5/goi8":
+		case"n5/goi9":case"n5/goi10":
+		case "n5":case "n502":case "n503":
+		case "n504":case "n505":case "n506":
+		case "n507":case "n508":case "n509": 
+		document.getElementById('n5').style.color = 'white';
+		document.getElementById('n5').style.background = 'brown';
+		document.getElementById('n5').style.boxShadow = '0px 1px brown';
+		document.getElementById('n5').style.borderRadius =  '5px';
+		document.getElementsByTagName('body')[0].style.background = '#111';
+		break
 
-			case "initiation":
-			document.getElementById('initiation').style.color = 'white';
-			document.getElementById('initiation').style.background = 'brown';
-			document.getElementById('initiation').style.boxShadow = '0px 1px brown';
-			document.getElementById('initiation').style.borderRadius =  '5px';
-			document.getElementsByTagName('body')[0].style.background = '#111';
-			break
+		case "initiation":
+		document.getElementById('initiation').style.color = 'white';
+		document.getElementById('initiation').style.background = 'brown';
+		document.getElementById('initiation').style.boxShadow = '0px 1px brown';
+		document.getElementById('initiation').style.borderRadius =  '5px';
+		document.getElementsByTagName('body')[0].style.background = '#111';
+		break
 
-			case "outils":
-			document.getElementById('outils').style.color = 'white';
-			document.getElementById('outils').style.background = 'brown';
-			document.getElementById('outils').style.boxShadow = '0px 1px brown';
-			document.getElementById('outils').style.borderRadius =  '5px';
-			document.getElementsByTagName('body')[0].style.background = '#111';
-			break
+		case "outils":
+		document.getElementById('outils').style.color = 'white';
+		document.getElementById('outils').style.background = 'brown';
+		document.getElementById('outils').style.boxShadow = '0px 1px brown';
+		document.getElementById('outils').style.borderRadius =  '5px';
+		document.getElementsByTagName('body')[0].style.background = '#111';
+		break
 
-			default:
-			p = "404";
-			document.getElementsByTagName('body')[0].style.background = '#111';
+		case "search":
+		break
+
+		default:
+		p = "404";
+		document.getElementsByTagName('body')[0].style.background = '#111';
+	}
+		page.src = 'pages/'+p+'.js';
+		document.getElementsByTagName('body')[0].appendChild(page);
+		if (typeof loadnum != 'undefined'){
+			setTimeout(function(){document.getElementsByTagName('body')[0].appendChild(loadnum)}, 500);
 		}
-			page.src = 'pages/'+p+'.js';
-			document.getElementsByTagName('body')[0].appendChild(page);
-			if (typeof loadnum != 'undefined'){
-				setTimeout(function(){document.getElementsByTagName('body')[0].appendChild(loadnum)}, 500);
-			}
-		function goto(page){
-			location.href='index.html?p='+page;
-		}
-	</script>
+	function goto(page){
+		location.href='index.html?p='+page;
+	}
+</script>
 </html>

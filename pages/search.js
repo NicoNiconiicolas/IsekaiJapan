@@ -1,12 +1,13 @@
 document.getElementById('content').innerHTML = ""+
 "<div id='main'>"+
 	"<div id='chapbox'>"+
-	"<h1>Résultats pour : "+decodeURI($_GET('q'))+"</h1>"+
+	"<h1>Résultats pour : "+decodeURI($_GET('q')).toLowerCase()+"</h1>"+
 	"</div>"+
 "</div>";
 
 var res = "";
 var q = decodeURI($_GET('q'));
+q = q.toLowerCase();
 q = q.replace(/\s/g, '');
 switch(q){
 	case 'は':case'wa':case'ha':

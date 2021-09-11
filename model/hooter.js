@@ -9,4 +9,5 @@ document.getElementsByTagName('body')[0].innerHTML += "<img id='logo' src='img/b
 "<div id='n3' class='menu-el' onclick='goto(\"404\")'>JLPT N3</div>"+
 "<div id='n2' class='menu-el' onclick='goto(\"404\")'>JLPT N2</div>"+
 "<div id='n1' class='menu-el' onclick='goto(\"404\")'>JLPT N1</div>"+
+"<div id='search'><input id='searchbar' type='text' placeholder='rechercher...'></input><button onclick='gotosearch()'>🔎</button></div>"+
 "</div>";

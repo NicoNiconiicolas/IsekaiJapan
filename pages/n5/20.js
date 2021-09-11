@@ -20,8 +20,8 @@ document.getElementById('content').innerHTML = ""+
 	"<p><span class='b'>présent négatif :</span> ありません ｜ ないです</p>"+
 	"<p><span class='b'>passé négatif :</span> ありませんでした ｜ なかったです</p>"+
 "</div>"+
-"<br><p class='pi'>・があります ne s'utilise qu'avec des choses non-vivantes</p>"+
-"<p class='pi'>・Pour les choses vivantes <a href='?p=n5/22' class='inlink'>utilisez がいます</a></p>"+
+"<br><p class='pi'>・があります s'utilise principalement pour exprimer la présence de plantes ou objets</p>"+
+"<p class='pi'>・Pour exprimer la présence de personnes et animaux <a href='?p=n5/22' class='inlink'>utilisez がいます</a></p>"+
 "<p class='pi'>・が est remplacé par に pour exprimer qu'il y a quelque chose à un lieu donné</p>"+
 "<p class='pi'>・が est parfois remplacé par la <a href='?p=404' class='inlink'>particule de contraste は</a></p>"+
 "<br><h3>exemple #1</h3>"+

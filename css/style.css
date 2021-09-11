@@ -34,6 +34,7 @@
 }
 
 .gbox{
+	font-size: 1.1em;
 	padding: 10px;
 	border-left: ridge 5px #A66;
 	border-radius: 5px;
@@ -163,6 +164,10 @@ p{
 	background-size: 10%;
 }
 
+#main h1{
+	font-size: 1.8em;
+}
+
 .isekai{
 	user-select: none;
 	color: white;
@@ -208,7 +213,7 @@ p{
 	background: #222;
 	width: 100vw;
 	bottom: 0;
-	bottom: -13rem;
+	bottom: -9rem;
 	user-select: none;
 }
 

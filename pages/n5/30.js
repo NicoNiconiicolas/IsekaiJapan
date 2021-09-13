@@ -5,7 +5,7 @@ document.getElementById('content').innerHTML = ""+
 "<p>mais, cependant, même si</p>"+
 "<br><p><span class='gbox'>Utilisation</span></p><br>"+
 "<p>à utiliser entre 2 idées contradictoires</p>"+
-"<br><p class='pi'>・Utilisez <a class='inlink' href='?p=404'>けれども</a> pour plus de politesse</p>"+
+"<br><p class='pi'>・Utilisez <a class='inlink' href='?p=n5/31'>けれども</a> pour plus de politesse</p>"+
 "<p class='pi'>・Très similaire à <a class='inlink' href='?p=404'>だけど(N3)</a></p>"+
 "<br><h3>exemple #1</h3>"+
 "<div class='ex'>仕事は辛い<span class='b'>けど</span>楽しい。</div>"+

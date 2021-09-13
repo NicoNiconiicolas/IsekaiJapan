@@ -1,7 +1,6 @@
 document.getElementById('content').innerHTML = ""+
 "<div id='main'>"+
 "<h1>第３語彙一覧表<br> Liste de vocabulaire #3</h1>"+
-"<h2>en création...</h2>"+
 "<table id='voc'>"+
 "<tr><th>#</th><th>日本語</th><th>かな</th><th>Français</th></tr>"+
 "<tr><td>1</td><td>一</td><td>いち</td><td>un</td></tr>"+

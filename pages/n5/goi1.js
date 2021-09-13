@@ -32,9 +32,9 @@ document.getElementById('content').innerHTML = ""+
 "<tr><td>27</td><td>嫌い</td><td>きらい</td><td>détesté (adjectif)</td>"+
 "<tr><td>28</td><td>食べ物</td><td>たべもの</td><td>nourriture</td>"+
 "<tr><td>29</td><td>飲み物</td><td>のみもの</td><td>boisson</td>"+
-"<tr><td>30</td><td>何</td><td>なに/なん</td><td>quoi/quel</td>"+
-"<tr><td>31</td><td>学校</td><td>がっこう/なん</td><td>école</td>"+
-"<tr><td>32</td><td>大学</td><td>だいがっこう</td><td>université</td>"+
+"<tr><td>30</td><td>何</td><td>なに｜なん</td><td>quoi/quel</td>"+
+"<tr><td>31</td><td>学校</td><td>がっこう｜なん</td><td>école</td>"+
+"<tr><td>32</td><td>大学</td><td>だいがく</td><td>université</td>"+
 "<tr><td>33</td><td>仕事</td><td>しごと</td><td>travail</td>"+
 "<tr><td>34</td><td>駅</td><td>えき</td><td>la gare</td>"+
 "<tr><td>35</td><td>郵便局</td><td>ゆうびんきょく</td><td>le bureau de poste</td>"+
@@ -101,6 +101,6 @@ document.getElementById('content').innerHTML = ""+
 "<tr><td>97</td><td>学生</td><td>がくせい</td><td>étudiant</td>"+
 "<tr><td>98</td><td>先生</td><td>せんせい</td><td>professeur | docteur</td>"+
 "<tr><td>99</td><td>元気</td><td>げんき</td><td>énergie | vigeur | santé</td>"+
-"<tr><td>100</td><td>大丈夫</td><td>だいじょうぶ</td><td>bien aller</td>"+
+"<tr><td>100</td><td>大丈夫</td><td>だいじょうぶ</td><td>tout va bien</td>"+
 "</table>"+
 "<br></div>"

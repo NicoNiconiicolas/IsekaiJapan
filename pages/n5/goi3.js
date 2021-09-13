@@ -53,7 +53,7 @@ document.getElementById('content').innerHTML = ""+
 "<tr><td>48</td><td>授業</td><td>じゅぎょう</td><td>leçon ｜ cours</td></tr>"+
 "<tr><td>49</td><td>お酒</td><td>おさけ</td><td>L'alcool</td></tr>"+
 "<tr><td>50</td><td>テレビ</td><td>～</td><td>télévision</td></tr>"+
-"<tr><td>51</td><td>間違う</td><td>まちがう</td><td>se tromper</td></tr>"+
+"<tr><td>51</td><td>川</td><td>かわ</td><td>rivière</td></tr>"+
 "<tr><td>52</td><td>たぶん</td><td>～</td><td>peut-être</td></tr>"+
 "<tr><td>53</td><td>スマホ</td><td>～</td><td>smartphone</td></tr>"+
 "<tr><td>54</td><td>大人</td><td>おとな</td><td>adulte</td></tr>"+

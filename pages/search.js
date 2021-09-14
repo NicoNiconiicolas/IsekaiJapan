@@ -145,6 +145,15 @@ switch(q){
 
 	case'けど':case'kedo':
 	res += "<a href='index.html?p=n5/30'><span class='num'>N5</span>けど　｜　kedo</a>";
+	res += "<a href='index.html?p=n5/31'><span class='num'>N5</span>けれども　｜　keredomo</a>";
+	break
+
+	case'けれど':case'keredo':case'けれども':case'keredomo':
+	res += "<a href='index.html?p=n5/31'><span class='num'>N5</span>けれども　｜　keredomo</a>";
+	break
+
+	case'まだ':case'mada':
+	res += "<a href='index.html?p=n5/32'><span class='num'>N5</span>まだ　｜　mada</a>";
 	break
 
 	default :

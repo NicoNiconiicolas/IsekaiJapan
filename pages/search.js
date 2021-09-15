@@ -34,12 +34,14 @@ switch(q){
 	res += "<a href='index.html?p=n5/5'><span class='num'>N5</span>も　｜　mo</a>";
 	res += "<a href='index.html?p=n5/13'><span class='num'>N5</span>でも　｜　demo</a>";
 	res += "<a href='index.html?p=n5/26'><span class='num'>N5</span>いつも　｜　istumo</a>";
+	res += "<a href='index.html?p=n5/34'><span class='num'>N5</span>もう　｜　mou</a>";
 	break
 
 	case'で':case'de':
 	res += "<a href='index.html?p=n5/6'><span class='num'>N5</span>で　｜　de</a>";
 	res += "<a href='index.html?p=n5/13'><span class='num'>N5</span>でも　｜　demo</a>";
 	res += "<a href='index.html?p=n5/17'><span class='num'>N5</span>でしょう　｜　deshou</a>";
+	res += "<a href='index.html?p=n5/33'><span class='num'>N5</span>まで　｜　made</a>";
 	break
 
 	case'ga':case'が':
@@ -154,6 +156,14 @@ switch(q){
 
 	case'まだ':case'mada':
 	res += "<a href='index.html?p=n5/32'><span class='num'>N5</span>まだ　｜　mada</a>";
+	break
+
+	case'まで':case'made':
+	res += "<a href='index.html?p=n5/33'><span class='num'>N5</span>まで　｜　made</a>";
+	break
+
+	case'もう':case'mou':
+	res += "<a href='index.html?p=n5/34'><span class='num'>N5</span>もう　｜　mou</a>";
 	break
 
 	default :

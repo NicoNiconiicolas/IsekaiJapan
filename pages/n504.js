@@ -9,7 +9,9 @@ document.getElementById('content').innerHTML = ""+
 		"<a href='index.html?p=n5/goi4' target='_blank'>第４語彙一覧表　<span class='tate'>｜</span><br class='br'>　liste de vocabulaire #4</a>"+
 		"<a href='index.html?p=n5/31' target='_blank'><span class='num'>#31</span>けれども　｜　keredomo</a>"+
 		"<a href='index.html?p=n5/32' target='_blank'><span class='num'>#32</span>まだ ｜ mada</a>"+
-		"<a href='index.html?p=n5/33' target='_blank'><span class='num'>#33</span>en préparation...</a>"+
+		"<a href='index.html?p=n5/33' target='_blank'><span class='num'>#33</span>まで ｜ made</a>"+
+		"<a href='index.html?p=n5/34' target='_blank'><span class='num'>#34</span>もう ｜ mou</a>"+
+		"<a href='index.html?p=n5/35' target='_blank'><span class='num'>#35</span>en préparation...</a>"+
 	"</div>"+
 	"<br><br><br><br><br>"+
 "</div>";

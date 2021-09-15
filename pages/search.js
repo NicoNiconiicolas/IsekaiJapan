@@ -58,6 +58,7 @@ switch(q){
 	case'ni':case'に':
 	res += "<a href='index.html?p=n5/9'><span class='num'>N5</span>に　｜　ni</a>";
 	res += "<a href='index.html?p=n5/25'><span class='num'>N5</span>一緒に　｜　issho ni</a>";
+	res += "<a href='index.html?p=n5/35'><span class='num'>N5</span>前に　｜　mae ni</a>";
 	break
 
 	case'to':case'と':
@@ -154,16 +155,28 @@ switch(q){
 	res += "<a href='index.html?p=n5/31'><span class='num'>N5</span>けれども　｜　keredomo</a>";
 	break
 
-	case'まだ':case'mada':
+	case'まだ':case'mada':case'未だ':
 	res += "<a href='index.html?p=n5/32'><span class='num'>N5</span>まだ　｜　mada</a>";
 	break
 
-	case'まで':case'made':
+	case'まで':case'made':case'迄':
 	res += "<a href='index.html?p=n5/33'><span class='num'>N5</span>まで　｜　made</a>";
 	break
 
 	case'もう':case'mou':
 	res += "<a href='index.html?p=n5/34'><span class='num'>N5</span>もう　｜　mou</a>";
+	break
+
+	case'前に':case'まえに':case'まえ':case'前':case'mae':case'maeni':
+	res += "<a href='index.html?p=n5/35'><span class='num'>N5</span>前に　｜　mae ni</a>";
+	break
+
+	case'ませんか':case'masenka':
+	res += "<a href='index.html?p=n5/36'><span class='num'>N5</span>ませんか　｜　masen ka</a>";
+	break
+
+	case'ましょう':case'mashou':case'ましょ':case'masho':
+	res += "<a href='index.html?p=n5/37'><span class='num'>N5</span>ましょう　｜　mashou</a>";
 	break
 
 	default :

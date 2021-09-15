@@ -11,7 +11,10 @@ document.getElementById('content').innerHTML = ""+
 		"<a href='index.html?p=n5/32' target='_blank'><span class='num'>#32</span>まだ ｜ mada</a>"+
 		"<a href='index.html?p=n5/33' target='_blank'><span class='num'>#33</span>まで ｜ made</a>"+
 		"<a href='index.html?p=n5/34' target='_blank'><span class='num'>#34</span>もう ｜ mou</a>"+
-		"<a href='index.html?p=n5/35' target='_blank'><span class='num'>#35</span>en préparation...</a>"+
+		"<a href='index.html?p=n5/35' target='_blank'><span class='num'>#35</span>前に ｜ mae ni</a>"+
+		"<a href='index.html?p=n5/36' target='_blank'><span class='num'>#36</span>ませんか ｜ masen ka</a>"+
+		"<a href='index.html?p=n5/37' target='_blank'><span class='num'>#37</span>ましょう ｜ mashou</a>"+
+		"<a href='index.html?p=n5/38' target='_blank'><span class='num'>#38</span>en préparation...</a>"+
 	"</div>"+
 	"<br><br><br><br><br>"+
 "</div>";

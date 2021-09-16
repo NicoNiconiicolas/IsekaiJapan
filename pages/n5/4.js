@@ -5,9 +5,9 @@ document.getElementById('content').innerHTML = ""+
 "<p>La particule か permet de changer une phrase en question</p>"+
 "<br><p><span class='gbox'>Utilisation</span></p><br>"+
 "<p>fin de phrase + か</p>"+
-"<br><p class='pi'>・か n'est pas nécessairement suivi d'un point d'interrogation</p>"+
-"<p class='pi'>・En français on pose des questions en faisant varier le ton de la voix, chose qui est marquée par un point d'interrogation en fin de phrase. <br>En japonais on peut poser une question sans même faire varier le ton grâce à か"+
-"<p  class='pi'>・On peut également poser des questions sans utiliser か tout comme en français avec le ' ? ' ou même utiliser les 2 à la fois ( か？ )</p>"+
+"<br><p class='pi'>・か n'est <span class='b'>pas nécessairement</span> suivi d'un point d'interrogation</p>"+
+"<p class='pi'>・<span class='b'>En français</span> on pose des questions en faisant varier le ton de la voix, chose qui est marquée par un point d'interrogation en fin de phrase. <br><span class='b'>En japonais</span> on peut poser une question sans même faire varier le ton grâce à か"+
+"<p  class='pi'>・On peut également poser des questions <span class='b'>sans utiliser か</span> tout comme en français avec le ' ? ' ou même utiliser <span class='b'>les 2 à la fois</span> ( か？ )</p>"+
 "<p class='pi'>・En langage familier la <a href='index.html?p=404' class='inlink'>particule の</a> est souvent utilisée à la place de か qui est un peu trop formel</p>"+
 "<p class='pi'>・か est également lié à un autre point de grammaire, voir <a href='index.html?p=404' class='inlink'>la leçon か～か (N5)</a></p>"+
 "<br><h3>exemple #1</h3>"+

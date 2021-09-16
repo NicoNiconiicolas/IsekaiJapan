@@ -2,11 +2,11 @@ document.getElementById('content').innerHTML = ""+
 "<div id='main'><div id='num'></div>"+
 "<h1>ましょう<br>mashou</h1>"+
 "<br><p><span class='gbox'>Sens</span></p><br>"+
-"<p>Faisons, devrions-nous </p>"+
+"<p>faisons, allons,etc...</p>"+
 "<br><p><span class='gbox'>Utilisation</span></p><br>"+
 "<p>racine du verbe (verbe sans ます) + ましょう</p>"+
-"<p class='pi'>・Utilisé pour faire des suggestions</p>"+
-"<p class='pi'>・En ajoutant か cela deviendra une question suggestive, voir <a href='?p=404' class='inlink'>ませんか</a></p>"+
+"<br><p class='pi'>・Utilisé pousser à l'action</p>"+
+"<p class='pi'>・En ajoutant か cela deviendra une question suggestive, voir <a href='?p=n5/38' class='inlink'>ましょうか</a></p>"+
 "<br><h3>exemple #1</h3>"+
 "<div class='ex'>行き<span class='b'>ましょう</span>！</div>"+
 "<div class='hira'>いきましょう！</div>"+

@@ -3,8 +3,8 @@ document.getElementById('content').innerHTML = ""+
 "<div id='num'></div><h1>は<br>wa</h1>"+
 "<br><p><span class='gbox'>En bref</span></p><br>"+
 "<p>Ce qui précède は est le thème de la phrase, c'est à dire de quoi il est question dans la phrase</p>"+
-"<br><p class='pi'>・Le thème d'une phrase n'en est pas nécessairement le sujet</p>"+
-"<p class='pi'>・Bien que la particule s'écrive は elle se prononce 'wa' et non pas 'ha'</p>"+
+"<br><p class='pi'>・Le thème d'une phrase n'en est <span class='b'>pas nécessairement</span> le sujet</p>"+
+"<p class='pi'>・Bien que la particule s'écrive は elle se prononce <span class='b'>wa</span> et non pas <span class='b'>ha</span></p>"+
 "<p class='pi'>・Le thème indiqué par は nécéssite d'être connu, si un mot de question est ou fait partie du sujet on utilisera alors <a href='index.html?p=n5/7' class='inlink'>la particule が</a></p>"+
 "<br><p>Un futur article traitera des <a href='index.html?p=404' class='inlink'>utilisations particulères de は</a></p>"+
 "<br><h3>exemple #1</h3>"+

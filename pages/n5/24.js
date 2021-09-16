@@ -4,7 +4,7 @@ document.getElementById('content').innerHTML = ""+
 "<br><p><span class='gbox'>Sens</span></p><br>"+
 "<p>Le plus, le meilleur</p>"+
 "<br><p><span class='gbox'>Utilisation</span></p><br>"+
-"<p>[A] + が/は + いちばん</p>"+
+"<p>[A] + が / は + いちばん</p>"+
 "<p>いちばん + [A]</p>"+
 "<br><p>・lié à l'utilisation de <a class='inlink' href='?p=404'>の中で～がいちばん</a></p>"+
 "<br><h3>exemple #1</h3>"+

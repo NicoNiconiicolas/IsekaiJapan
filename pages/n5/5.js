@@ -5,7 +5,7 @@ document.getElementById('content').innerHTML = ""+
 "<p>Aussi, également, aussi bien que</p>"+
 "<br><p><span class='gbox'>Utilisation</span></p><br>"+
 "<p>nom commun + も</p>"+
-"<br><p class='conj'>・も prend la place des particules qu'on aurait utilisé en temps normal</p>"+
+"<br><p class='conj'>も prend la place des particules qu'on aurait utilisé en temps normal</p>"+
 "<br><p>Par ici une <a href='index.html?p=404' class='inlink'>autre utilisation de も (N4)</a></p>"+
 "<br><h3>exemple #1</h3>"+
 "<div class='ex'>私<span class='b'>も</span>できる。</div>"+

@@ -21,7 +21,7 @@ document.getElementById('content').innerHTML = ""+
 "<br><p class='pi'>・Il n'est pas rare que le だ sois omis en fin de phrase.</p>"+
 "<p class='pi'>・です est souvent ajouté en fin de phrase pour la rendre polie.</p>"+
 "<p class='pi'>・Omettre un です en fin de phrase retire également la politesse.</p>"+
-"<p class='pi'>・Le は dans la négation est en réalité la particule は on la pronnonce donc ' wa '.</p>"+
+"<p class='pi'>・Le は dans la négation est en réalité la particule は on la pronnonce donc <span class='b'>wa</span>.</p>"+
 "<p class='pi'>・Dans sa forme négative le じゃ est une contraction de では utilisé couramment à l'oral.</p>"+
 "<br><h3>exemple #1</h3>"+
 "<div class='ex'>今日は暑い<span class='b'>です</span>ね。</div>"+

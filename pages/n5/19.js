@@ -7,13 +7,13 @@ document.getElementById('content').innerHTML = ""+
 "<p>se construit à partir de la forme en て d'un verbe, voir ci-dessous</p><br>"+
 "<p>si forme en て finit par て :</p>"+
 "<div class='conj'>"+
-	"<p>verbe sans て + ちゃだめ (famillier)</p>"+
+	"<p>verbe <span class='b'>sans て</span> + ちゃだめ (famillier)</p>"+
 	"<p>　　　　　　　　+ ちゃいけない (famillier)</p>"+
 	"<p>　　　　　　　+ ちゃいけません (poli)</p><br>"+
 "</div>"+
 "<p>si forme en て finit par で :</p>"+
 "<div class='conj'>"+
-	"<p>verbe sans で + じゃだめ (famillier)</p>"+
+	"<p>verbe <span class='b'>sans で</span> + じゃだめ (famillier)</p>"+
 	"<p>　　　　　　　　+ じゃいけない (famillier)</p>"+
 	"<p>　　　　　　　+ じゃいけません (poli)</p>"+
 "</div>"+

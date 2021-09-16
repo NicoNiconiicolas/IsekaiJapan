@@ -46,4 +46,8 @@ document.getElementById('content').innerHTML = ""+
 "<div class='ex'>私は宿題が<span class='b'>まだ</span>終わっていません。</div>"+
 "<div class='hira'>わたしはしゅくだいがまだおわっていません。</div>"+
 "<div class='trad'>Je n'ai toujours pas fini mes devoirs.</div>"+
+"<br><h3>exemple #10</h3>"+
+"<div class='ex'>バスは<span class='b'>まだ</span>来ていません。</div>"+
+"<div class='hira'>バスはまだきていません。</div>"+
+"<div class='trad'>Le bus n'est toujours pas arrivé.</div>"+
 "<br></div>";

@@ -4,8 +4,8 @@ document.getElementById('content').innerHTML = ""+
 "<br><p><span class='gbox'>Sens</span></p><br>"+
 "<p>façon de faire, comment faire</p>"+
 "<br><p><span class='gbox'>Utilisation</span></p><br>"+
-"<p>verbe (racine) + 方</p>"+
-"<br><p>・On obtient la racine d'un verbe en le conjuguant à la forme polie puis en retirant le ます final </p>"+
+"<p>racine du verbe (verbe sans ます) + かた</p>"+
+"<p>　　　　　　　　　　　　　　+ 方</p>"+
 "<br><h3>exemple #1</h3>"+
 "<div class='ex'>パソコンの使い<span class='b'>かた</span>がわかりません。</div>"+
 "<div class='hira'>パソコンのつかいかたがわかりません。</div>"+

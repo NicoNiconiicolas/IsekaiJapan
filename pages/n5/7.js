@@ -7,9 +7,9 @@ document.getElementById('content').innerHTML = ""+
 "<br><p><span class='gbox'>Utilisation</span></p><br>"+
 "<p>1) sujet + が</p>"+
 "<p>2) phrase 1 + が + phrase 2</p>"+
-"<br><p class='pi'>・À l'inverse de を, が s'utilise de paire avec les verbes intransitifs, c'est à dire les verbes qui s'appliquent au sujet lui-même</p>"+
+"<br><p class='pi'>・À l'inverse de を, が s'utilise de paire avec les <span class='b'>verbes intransitifs</span>, c'est à dire les verbes qui <span class='b'>s'appliquent au sujet lui-même</span></p>"+
 "<p class='pi'>・が peut être utilisé à la place de は pour insister sur le sujet</p>"+
-"<p class='pi'>・Si le sujet est ou contient un mot de question on utilisera が car は nécessite que le sujet sois connu</p>"+
+"<p class='pi'>・Si le sujet est ou contient un <span class='b'>mot de question</span> on utilisera が car は nécessite que le sujet sois connu</p>"+
 "<p class='pi'>・が s'utilise également pour introduire un nouveau sujet</p>"+
 "<br><h3>exemple #1</h3>"+
 "<div class='ex'>明日は雨<span class='b'>が</span>降る。</div>"+

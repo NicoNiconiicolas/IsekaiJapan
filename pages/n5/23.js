@@ -6,7 +6,6 @@ document.getElementById('content').innerHTML = ""+
 "<br><p><span class='gbox'>Utilisation</span></p><br>"+
 "<p>verbe + ほうがいい</p>"+
 "<p>　　　 + 方がいい</p>"+
-"<br><p>・Le kanji est optionnel</p>"+
 "<br><h3>exemple #1</h3>"+
 "<div class='ex'>行った<span class='b'>ほうがいい</span>。</div>"+
 "<div class='hira'>いったほうがいい。</div>"+

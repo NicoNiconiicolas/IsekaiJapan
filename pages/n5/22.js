@@ -20,7 +20,7 @@ document.getElementById('content').innerHTML = ""+
 	"<p><span class='b'>présent négatif :</span> いません ｜ いないです</p>"+
 	"<p><span class='b'>passé négatif :</span> いませんでした ｜ いなかったです</p>"+
 "</div>"+
-"<br><p class='pi'>・がいます ne s'utilise qu'avec des choses vivantes</p>"+
+"<br><p class='pi'>・がいます s'utilise presque toujours pour les personnes et animaux</p>"+
 "<p class='pi'>・Pour les plantes et objets utilisez <a href='?p=n5/20' class='inlink'>があります</a></p>"+
 "<p class='pi'>・が est remplacé par に pour exprimer qu'il y a quelque chose à un lieu donné</p>"+
 "<p class='pi'>・が est parfois remplacé par la <a href='?p=404' class='inlink'>particule de contraste は</a></p>"+
@@ -40,6 +40,7 @@ document.getElementById('content').innerHTML = ""+
 "<div class='ex'>いいえ、子ども<span class='b'>がいません</span>。</div>"+
 "<div class='hira'>いいえ、こどもがいません。</div>"+
 "<div class='trad'>Non, je n'ai pas d'enfants.</div>"+
+"<br><p class='conj'>Pour aller plus en profondeur:<br><span class='b'>いる</span> ne se limite pas à une utilisation envers <span class='b'>animaux et personnes</span> mais également toute chose donnant <span class='b'>la sensation d'être vivante</span>.<br><br>Par exemple :<br><br>- un robot ayant des traits humains ou animal<br>- une peluche à qui on aurait pour habitude de<br> parler comme si elle était une personne à part entière.<br><br>Tout dépend donc de <span class='b'>la perception</span> qu'on en a plutôt que d'une définition stricte.</p>"+
 "<br><h3>exemple #5</h3>"+
 "<div class='ex'>テーブルの下に猫<span class='b'>がいる</span>。</div>"+
 "<div class='hira'>テーブルのしたにねこがいる。</div>"+
@@ -64,5 +65,4 @@ document.getElementById('content').innerHTML = ""+
 "<div class='ex'>今学校にだれも<span class='b'>いません</span>。</div>"+
 "<div class='hira'>いまがっこうにだれもいません。</div>"+
 "<div class='trad'>Il n'y a personne à l'école en ce moment.</div>"+
-"<br><p class='conj'>Pour aller plus en profondeur: <span class='b'>いる</span> ne se limite pas à une utilisation envers <span class='b'>animaux et personnes</span> mais également toute chose donnant <span class='b'>la sensation d'être vivant</span>.<br><br>Par exemple :<br><br>- un robot ayant des traits humains ou animal<br>- une peluche à qui on aurait pour habitude de parler comme si elle était une personne à part entière.<br><br>Tout dépend donc de <span class='b'>la perception</span> qu'on en a plutôt que d'une définition stricte.</p>"+
 "<br></div>";

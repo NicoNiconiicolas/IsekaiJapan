@@ -5,7 +5,7 @@ document.getElementById('content').innerHTML = ""+
 "<p>voudrais-tu, aimerais-tu, pourrais-tu, devrions-nous</p>"+
 "<br><p><span class='gbox'>Utilisation</span></p><br>"+
 "<p>verbe (forme ません) + か</p>"+
-"<p class='conj'>・Ce point de grammaire est souvent utilisée lorsque l'on invite ou fait une proposition à quelqu'un. Une question trop directe sera souvent perçue comme malpolie, veillez alors à utiliser une tournure de phrase en ませんか</p>"+
+"<br><p class='conj'>Ce point de grammaire est souvent utilisée lorsque l'on invite ou fait une proposition à quelqu'un. Une question trop directe sera souvent perçue comme malpolie, veillez alors à utiliser une tournure de phrase en <span class='b'>ませんか</span></p>"+
 "<br><h3>exemple #1</h3>"+
 "<div class='ex'>行き<span class='b'>ませんか</span>。</div>"+
 "<div class='hira'>いきませんか。</div>"+

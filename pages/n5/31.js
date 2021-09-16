@@ -5,7 +5,7 @@ document.getElementById('content').innerHTML = ""+
 "<p>mais, cependant, même si</p>"+
 "<br><p><span class='gbox'>Utilisation</span></p><br>"+
 "<p>à utiliser entre 2 idées contradictoires</p>"+
-"<br><p class='pi'>・Version plus formelle de <a class='inlink' href='?p=n5/30'>けど</a></p>"+
+"<br><p class='pi'>・Pour un équivalent moins formel, voir <a class='inlink' href='?p=n5/30'>けど</a></p>"+
 "<p class='pi'>・du moins formel au plus formel: けど、けれど、けれども</p>"+
 "<br><h3>exemple #1</h3>"+
 "<div class='ex'>このカメラは高かった<span class='b'>けれど</span>、すぐ壊れてしまいました。</div>"+

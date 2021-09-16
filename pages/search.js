@@ -177,6 +177,19 @@ switch(q){
 
 	case'ましょう':case'mashou':case'ましょ':case'masho':
 	res += "<a href='index.html?p=n5/37'><span class='num'>N5</span>ましょう　｜　mashou</a>";
+	res += "<a href='index.html?p=n5/38'><span class='num'>N5</span>ましょうか　｜　mashou ka</a>";
+	break
+
+	case'ましょうか':case'mashouka':case'ましょか':case'mashoka':
+	res += "<a href='index.html?p=n5/38'><span class='num'>N5</span>ましょうか　｜　mashou ka</a>";
+	break
+
+	case'なあ':case'な':case'naa':case'na':
+	res += "<a href='index.html?p=n5/39'><span class='num'>N5</span>なあ　｜　naa</a>";
+	break
+
+	case'ないで':case'ない':case'nai':case'naide':
+	res += "<a href='index.html?p=n5/40'><span class='num'>N5</span>ないで　｜　naide</a>";
 	break
 
 	default :

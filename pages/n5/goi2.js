@@ -82,7 +82,7 @@ document.getElementById('content').innerHTML = ""+
 "<tr><td>77</td><td>中</td><td>なか</td><td>à l'intérieur</td></tr>"+
 "<tr><td>78</td><td>書く</td><td>かく</td><td>écrire</td></tr>"+
 "<tr><td>79</td><td>住む</td><td>すむ</td><td>vivre | résider</td></tr>"+
-"<tr><td>80</td><td>住む</td><td>すむ</td><td>vivre | résider</td></tr>"+
+"<tr><td>80</td><td>欲しい</td><td>ほしい</td><td>désiré</td></tr>"+
 "<tr><td>81</td><td>お母さん</td><td>おかあさん</td><td>maman</td></tr>"+
 "<tr><td>82</td><td>お父さん</td><td>おとうさん</td><td>papa</td></tr>"+
 "<tr><td>83</td><td>お姉さん</td><td>おねえさん</td><td>grande soeur</td></tr>"+

@@ -52,6 +52,7 @@ button{
 	right: 15px;
 	width: 64px;
 	transition: 0.2s;
+	z-index: 1;
 }
 
 #discord:hover{
@@ -126,10 +127,11 @@ html{
 	position: relative;
   min-height: 100vh;
   font-family: arial;
+  background: #333;
 }
 
 body{
-	background: url('../img/3.png') fixed no-repeat;
+	background: url('../img/3.png') 97% 0% no-repeat;
 	text-align: center;
 	margin: 0;
   position: relative;
@@ -157,6 +159,7 @@ li{
 
 h2{
 	font-size: 1.2em;
+	color: #EDEDED;
 }
 
 h2:not(:first-child){
@@ -181,28 +184,45 @@ p{
 	margin: auto;
 }
 
+.exbox{
+	border-radius: 4px;
+	display: inline-block;
+	background: #454545;
+	padding: 25px;
+	padding-top: 0;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
 #main{
-	color: #222;
+	color: #EDEDED;
 	padding: 5px;
-	background: url(../img/corner-top-right.png) no-repeat 100% 0%, url(../img/corner-top-left.png) no-repeat 0% 0%, white;
-	border: solid 5px #222;
+	background: url(../img/corner-top-right.png) no-repeat 100% 0%, url(../img/corner-top-left.png) no-repeat 0% 0%, #333;
+	border-top: solid 5px #222;
 	background-size: 10%;
 }
 
 #main h1{
 	font-size: 1.8em;
+	color: #EDEDED;
+}
+
+#main h3{
+	color: #EDEDED;
+	margin: 0px;
+	margin-bottom: 15px;
 }
 
 .isekai{
 	user-select: none;
-	color: white;
+	color: #EDEDED;
 	font-size: 1.2em;
 	text-shadow: -3px 0px black;
 }
 
 .elegant{
 	user-select: none;
-	color: white;
+	color: #EDEDED;
 	text-shadow: -3px 0px black;
 	font-size: 1.2em;
 }
@@ -211,7 +231,7 @@ p{
 	box-shadow: 0px 1px #111;
 	text-align: center;
 	background: #222;
-	color: white;
+	color: #EDEDED;
 	font-size: 1.2em;
 	cursor: pointer;
 	user-select: none;
@@ -235,7 +255,7 @@ p{
 	position: absolute;
 	text-align: center;
 	cursor: pointer;
-	background: #222;
+	background: #151515;
 	width: 100vw;
 	bottom: 0;
 	bottom: -9rem;
@@ -279,7 +299,7 @@ h3{
 
 table{
 	margin: auto;
-	color: #FFF;
+	color: #EDEDED;
 	border-spacing: 3vw 1px;
 }
 
@@ -297,22 +317,23 @@ td{
 }
 
 #voc{
-	border-spacing: 2px 2px;
+	border-spacing: 1px 1px;
 }
 
 #voc th{
-	background: #303;
+	background: #A00;
 	color: #FFEFFF;
 }
 
 #voc td{
 	background: #EEE;
 	max-width: 10vw;
+	border-radius: 0px;
 	color: #222!important;
 }
 
 #voc tr:nth-child(2n) td{
-	background: #DADADA;
+	background: #EADADA;
 }
 
 #voc td:first-child{
@@ -341,7 +362,7 @@ td{
 	box-shadow: 0px 1px brown;
 	padding-left: 25px;
   padding-right: 25px;
-  border-radius: 5px;
+  border-radius: 2px;
 }
 
 .inlink:hover{
@@ -373,16 +394,6 @@ a:hover{
 	width: 75vw;
 }
 
-#bio{
-	display: none;
-	animation: fadein 0.5s forwards;
-	position: relative;
-	width: 50vw;
-	margin: auto;
-	padding: 5px;
-	background: #FFEFEF;
-}
-
 .squaaare{
 	margin: auto!important;
 	transition: all 0.5s;
@@ -390,12 +401,37 @@ a:hover{
 	user-select: none;
 	width: 50vw;
 	position: relative!important;
+	border-radius: 5px;
+}
+.squaaare.blue{
+	background: url('../img/n1.png') no-repeat, #0692E1;
+}
+
+.squaaare.green{
+	background: url('../img/n2.png') no-repeat, #02d538;
+}
+
+.squaaare.yellow{
+	background: url('../img/n3.png') no-repeat, #FAB800;
+}
+
+.squaaare.orange{
+	background: url('../img/n4.png') no-repeat, #FF6801;
+}
+
+.squaaare.red{
+	background: url('../img/n5.png') no-repeat, #A00;
 }
 
 .squaaare:hover{
 	width: 53vw;
 	height: 5vh;
-	border-radius: 5px;
+	border-radius: 10px;
+}
+
+h2.squaaare{
+	box-shadow: 2px 2px #222!important;
+	margin-top: 4px!important;
 }
 
 .chap{
@@ -403,17 +439,31 @@ a:hover{
 	width: 100%;
 }
 
-.num{
+.num, .numw{
 	position: absolute;
 	left: 8vw;
+	padding: 5px;
+	border-radius: 100%;
+	color: black;
+}
+
+#chapbox a:hover .num{
+	color: white;
+}
+
+.numw{
+	color: #EDEDED;
 }
 
 #num{
+	color: #EDEDED;
+	opacity: 0;
 	position: absolute;
 	float: left;
 	padding-top: 4vw;
 	padding-left: 5vw;
 	font-size: 1.5em;
+	transition: 0.5s;
 }
 
 #chapbox a{
@@ -439,32 +489,28 @@ a:hover{
 	background: #222;
 }
 
-.black{
-	background: #222!important;
+.green{
+	background: #02d538;
 }
 
 .brown{
 	background: brown;
 }
 
-.babyred{
-	background: #A00!important;
-}
-
-.lightred{
-	background: #900!important;
-}
-
 .red{
-	background: #600!important;
+	background: #A00;
 }
 
-.darkred{
-	background: #300!important;
+.orange{
+	background: #FF6801;
 }
 
-.rainbow{
-	background: black!important;
+.yellow{
+	background: #FAB800;
+}
+
+.blue{
+	background: #0692E1;
 }
 
 @media (max-width: 630px){

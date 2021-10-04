@@ -4,7 +4,7 @@ document.getElementById('content').innerHTML = ""+
 "<table id='voc'>"+
 "<tr><th>#</th><th>日本語</th><th>かな</th><th>Français</th></tr>"+
 "<tr><td>1</td><td>私</td><td>わたし</td><td>je</td>"+
-"<tr><td>2</td><td>だ/です</td><td>～</td><td>être</td>"+
+"<tr><td>2</td><td>だ｜です</td><td>～</td><td>être</td>"+
 "<tr><td>3</td><td>これ</td><td>～</td><td>ceci (près de soi-même)</td>"+
 "<tr><td>4</td><td>それ</td><td>～</td><td>cela (près de l'interlocuteur)</td>"+
 "<tr><td>5</td><td>あれ</td><td>～</td><td>ça (éloigné de soi et de l'interlocuteur)</td>"+

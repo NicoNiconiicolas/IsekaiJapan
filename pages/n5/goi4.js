@@ -7,7 +7,7 @@ document.getElementById('content').innerHTML = ""+
 "<tr><td>2</td><td>開く</td><td>あく</td><td>être ouvert</td></tr>"+
 "<tr><td>3</td><td>外</td><td>そと</td><td>extérieur | dehors</td></tr>"+
 "<tr><td>4</td><td>取る</td><td>とる</td><td>prendre | obtenir</td></tr>"+
-"<tr><td>5</td><td>入る</td><td>はいる</td><td>insérer | introduire</td></tr>"+
+"<tr><td>5</td><td>入る</td><td>はいる</td><td>entrer</td></tr>"+
 "<tr><td>6</td><td>呼ぶ</td><td>よぶ</td><td>appeler</td></tr>"+
 "<tr><td>7</td><td>長い</td><td>ながい</td><td>long</td></tr>"+
 "<tr><td>8</td><td>短い</td><td>みじかい</td><td>court</td></tr>"+
@@ -103,4 +103,4 @@ document.getElementById('content').innerHTML = ""+
 "<tr><td>99</td><td>午前</td><td>ごぜん</td><td>la matinée</td></tr>"+
 "<tr><td>100</td><td>午後</td><td>ごご</td><td>l'après-midi</td></tr>"+
 "</table>"+
-"</div>";
+"<br></div>";

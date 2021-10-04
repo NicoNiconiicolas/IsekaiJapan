@@ -46,7 +46,7 @@
 		document.getElementById('jlpt').style.background = 'brown';
 		document.getElementById('jlpt').style.boxShadow = '0px 1px brown';
 		document.getElementById('jlpt').style.borderRadius =  '5px';
-		document.getElementsByTagName('body')[0].style.background = '#111';
+		document.getElementsByTagName('body')[0].style.background = '#333';
 		break
 	
 		case"n5/1":case"n5/2":case"n5/3":case"n5/4":case"n5/5":
@@ -67,12 +67,16 @@
 		case"n5/goi9":case"n5/goi10":
 		case "n5":case "n502":case "n503":
 		case "n504":case "n505":case "n506":
-		case "n507":case "n508":case "n509": 
+		case "n507":case "n508":case "n509":case "introN5": 
 		document.getElementById('n5').style.color = 'white';
 		document.getElementById('n5').style.background = 'brown';
 		document.getElementById('n5').style.boxShadow = '0px 1px brown';
-		document.getElementById('n5').style.borderRadius =  '5px';
-		document.getElementsByTagName('body')[0].style.background = '#111';
+		document.getElementById('n5').style.borderRadius =  '2px';
+		document.getElementById('jlpt').style.color = 'white';
+		document.getElementById('jlpt').style.background = 'brown';
+		document.getElementById('jlpt').style.boxShadow = '0px 1px brown';
+		document.getElementById('jlpt').style.borderRadius =  '2px';
+		document.getElementsByTagName('body')[0].style.background = '#333';
 		break
 
 		case "initiation":
@@ -80,7 +84,7 @@
 		document.getElementById('initiation').style.background = 'brown';
 		document.getElementById('initiation').style.boxShadow = '0px 1px brown';
 		document.getElementById('initiation').style.borderRadius =  '5px';
-		document.getElementsByTagName('body')[0].style.background = '#111';
+		document.getElementsByTagName('body')[0].style.background = '#333';
 		break
 
 		case "outils":
@@ -88,7 +92,7 @@
 		document.getElementById('outils').style.background = 'brown';
 		document.getElementById('outils').style.boxShadow = '0px 1px brown';
 		document.getElementById('outils').style.borderRadius =  '5px';
-		document.getElementsByTagName('body')[0].style.background = '#111';
+		document.getElementsByTagName('body')[0].style.background = '#333';
 		break
 
 		case "search":
@@ -96,12 +100,12 @@
 
 		default:
 		p = "404";
-		document.getElementsByTagName('body')[0].style.background = '#111';
+		document.getElementsByTagName('body')[0].style.background = '#333';
 	}
 		page.src = 'pages/'+p+'.js';
 		document.getElementsByTagName('body')[0].appendChild(page);
 		if (typeof loadnum != 'undefined'){
-			setTimeout(function(){document.getElementsByTagName('body')[0].appendChild(loadnum)}, 500);
+			setTimeout(function(){document.getElementsByTagName('body')[0].appendChild(loadnum); document.getElementById('num').style.opacity = '1'}, 500);
 		}
 	function goto(page){
 		location.href='index.html?p='+page;

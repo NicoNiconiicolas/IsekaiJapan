@@ -4,7 +4,9 @@ document.getElementById('content').innerHTML = ""+
 "<br><p><span class='gbox'>En bref</span></p><br>"+
 "<p>La particule d'objet を indique l'objet auquel s'applique un verbe</p>"+
 "<br><p><span class='gbox'>Utilisation</span></p><br>"+
-"<p>nom commun (le COD) + を + verbe</p>"+
+"<div class='conj'>"+
+"<p>nom commun (COD) + <span class='b'>を</span> + verbe</p>"+
+"</div>"+
 "<br><p class='pi'>・を s'utilise <span class='b'>uniquement</span> avec les <span class='b'>verbes transitifs</span></p>"+
 "<p class='pi'>・Un verbe <span class='b'>transitif</span> est un verbe dont l'action est exécutée <span class='b'>par un sujet envers un objet ou une personne tier</span>.</p>"+
 "<p class='pi'>・À l'inverse un verbe <span class='b'>intransitif</span> s'appliquera au sujet lui-même, on utilisera alors <a href='index.html?p=n5/7' class='inlink'>la particule が</a> à la place.</p>"+

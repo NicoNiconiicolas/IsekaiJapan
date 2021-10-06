@@ -18,11 +18,11 @@ document.getElementById('content').innerHTML = ""+
 	"<p><span class='b'>Présent négatif: <br></span>じゃないです<br>じゃありません<br>ではありません<br></p>"+
 	"<p><span class='b'>Passé négatif: <br></span>じゃなかったです<br>ではありませんでした<br>じゃありませんでした</p>"+
 "</div>"+
-"<br><p class='pi'>・En langage famillier il n'est pas rare que だ sois omis lorsqu'il est en fin de phrase.</p>"+
-"<p class='pi'>・Omettre un です en fin de phrase retire également la politesse.</p>"+
-"<p class='pi'>・です est souvent employé en fin de phrase pour la rendre polie sans qu'il soit pour autant question du verbe être dans la traduction française.</p>"+
-"<p class='pi'>・Le は dans la négation se pronnonce <span class='b'>wa</span> tout comme la particule は.</p>"+
-"<p class='pi'>・Dans la forme négative le じゃ est une contraction de では utilisée couramment à l'oral.</p>"+
+"<br><p class='pi'>・En langage famillier il n'est pas rare que だ sois omis lorsqu'il est en fin de phrase</p>"+
+"<p class='pi'>・Omettre un です en fin de phrase retire également la politesse</p>"+
+"<p class='pi'>・です est souvent employé en fin de phrase pour la rendre polie sans qu'il soit pour autant question du verbe être dans la traduction française</p>"+
+"<p class='pi'>・Le は dans la négation se pronnonce <span class='b'>wa</span> tout comme la particule は</p>"+
+"<p class='pi'>・Dans la forme négative le じゃ est une contraction de では utilisée couramment à l'oral</p>"+
 "<br><div class='exbox'>"+
 	"<br><h3>exemple #1</h3>"+
 	"<div class='ex'>今日は暑い<span class='b'>です</span>ね。</div>"+

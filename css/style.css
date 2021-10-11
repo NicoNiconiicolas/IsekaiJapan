@@ -96,7 +96,7 @@ button{
 	color: black;
 	background: white;
 	border: 1px #DDD solid;
-	text-align: left;
+	text-align: center;
 	margin-top: 10px;
 }
 
@@ -242,6 +242,11 @@ p{
 	width: 100%;
 }
 
+#ch-menu .menu-el:hover{
+	color: black;
+	background: #EDEDED;
+}
+
 #ch-menu .menu-el{
 	border-right: grey solid 1px;
 }
@@ -356,13 +361,42 @@ td{
 	transition: all 0.1s;
 }
 
-.menu-el:hover{
+#home:hover, #initiation:hover, #outils:hover{
 	color: #FFF;
-	background: brown;
-	box-shadow: 0px 1px brown;
+	background: purple;
+	box-shadow: 0px 1px purple;
 	padding-left: 25px;
   padding-right: 25px;
-  border-radius: 2px;
+  border-radius: 5px;
+}
+
+#n5, #n4, #n3, #n2, #n1{
+	border-radius: 5px;
+}
+
+#n5:hover{
+	background: brown;
+	box-shadow: 0px 1px brown;
+}
+
+#n4:hover{
+	background: #FF6801;
+	box-shadow: 0px 1px #FF6801;
+}
+
+#n3:hover{
+	background: #FAB800;
+	box-shadow: 0px 1px #FAB800;
+}
+
+#n2:hover{
+	background: #02d538;
+	box-shadow: 0px 1px #02d538;
+}
+
+#n1:hover{
+	background: #0692E1;
+	box-shadow: 0px 1px #0692E1;
 }
 
 .inlink:hover{

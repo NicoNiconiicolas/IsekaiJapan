@@ -1,7 +1,7 @@
 document.getElementById('content').innerHTML = ""+
 "<div id='banner'>"+
 	"<h1>"+
-"<img onclick='location.href=\"https://discord.gg/vNkYpzUmQ6\"' id='discord' src='img/discord.png'>"+
+"<img onclick='location.href=\"https://discord.gg/mdGPhDYnjz\"' id='discord' src='img/discord.png'>"+
 	"<img id='home-logo' src='img/logo-2.png'><br>"+
 		"<span class='isekai'>異世界ジャパン</span><br>"+
 		"<span class='elegant'>Isekai Japan</span>"+

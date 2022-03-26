@@ -1,7 +1,11 @@
 document.getElementById('content').innerHTML = ""+
 "<div id='main'>"+
-	"<h1>"+
-		"Initiation au japonais"+
-	"</h1>"+
-	"<h2>Aucun article n'a encore été rédigé</h2>"+
+	"<div id='chapbox'>"+
+		"<h1>"+
+			"Introduction au japonais"+
+		"</h1>"+
+		"<div id='ch-menu'></div>"+
+		"<a href='index.html?p=intro/1' target='_blank'><span class='num'>#1</span>Le Système d'Écriture</a>"+
+	"</div>"+
+	"<br><br><br><br><br>"+
 "</div>";

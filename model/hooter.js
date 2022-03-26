@@ -1,7 +1,7 @@
 document.getElementsByTagName('body')[0].innerHTML += "<img id='logo' src='img/basic.png' onclick='location.href=\"index.html\"'>"+
 "<div id='menu'>"+
 "<div id='home' class='menu-el' onclick='goto(\"home\")'>Accueil</div>"+
-"<div id='initiation' class='menu-el' onclick='goto(\"initiation\")'>Initiation</div>"+
+"<div id='initiation' class='menu-el' onclick='goto(\"initiation\")'>Introduction</div>"+
 "<div id='jlpt' class='menu-el' onclick='goto(\"jlpt\")'>JLPT</div>"+
 "<div id='outils' class='menu-el' onclick='goto(\"outils\")'>Outils</div></div>"+
 "<div id='menu2'>"+

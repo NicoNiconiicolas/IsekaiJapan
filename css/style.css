@@ -28,6 +28,30 @@
 	margin: 15px;
 }
 
+r{
+	color: #E00;
+}
+
+pink{
+	color: hotpink;
+}
+
+v{
+	color: violet;
+}
+
+b{
+	color: #0692E1;
+}
+
+c{
+	color: cyan;
+}
+
+purp{
+	color: mediumpurple;
+}
+
 input{
 	padding: 5px;
 	border-radius: 3px;
@@ -94,7 +118,7 @@ button{
 
 .pi{
 	color: black;
-	background: white;
+	background: #EEE;
 	border: 1px #DDD solid;
 	text-align: center;
 	margin-top: 10px;
@@ -243,8 +267,8 @@ p{
 }
 
 #ch-menu .menu-el:hover{
-	color: black;
-	background: #EDEDED;
+	color: #EDEDED;
+	background: #181818;
 }
 
 #ch-menu .menu-el{
@@ -361,7 +385,7 @@ td{
 	transition: all 0.1s;
 }
 
-#home:hover, #initiation:hover, #outils:hover{
+#jlpt:hover, #home:hover, #initiation:hover, #outils:hover{
 	color: #FFF;
 	background: purple;
 	box-shadow: 0px 1px purple;

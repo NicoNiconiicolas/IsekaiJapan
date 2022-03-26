@@ -3,5 +3,5 @@ document.getElementById('content').innerHTML = ""+
 	"<h1>"+
 		"Outils"+
 	"</h1>"+
-	"<a href='https://kyuchama.github.io/' class='orange'>Kyuchama</a>"+
+	"<a href='https://budouen.github.io/' class='brown'>Budouen</a>"+
 "</div>";

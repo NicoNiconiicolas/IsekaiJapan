@@ -1,0 +1,42 @@
+document.getElementById('content').innerHTML = ""+
+"<div id='main'>"+
+"<h1>Le Système d'Écriture</h1>"+
+"<p>Pour commencer, laissez-moi vous posez une question,<br>connaissez-vous ce mot ?</p><br>"+
+"<p class='conj' style='font-size:2em;'>カフェオレ</p>"+
+"<p>Oui, c'est bien du japonais.<br>Mais c'est également un mot que vous connaissez.<br><br> À moins que le français ne soit pas votre langue maternelle,<br>il serait pour le moins suprenant que vous ne l'ayez jamais entendu."+
+"<br><br>Ce qui vous fait obstacle est sans doute la façon dont ce mot à été écrit.<br>Et si on utilisait des caractères qui vous sont un peu plus familiers ?</p>"+
+"<br><p class='conj' style='font-size:2em;'>café au lait</p>"+
+"<p>On y voit tout de suite plus clair.<br><br>Non, ce n'est pas la traduction du mot de tout à l'heure.<br><br>La prononciation est très similaire au français et le sens est identique<br>et pour cause, c'est un mot emprunté du français.<br><br>"+
+"La seule chose qui ai vraiment changé c'est le <r>système d'écriture</r> employé.</p>"+
+"<p class='conj'><r>En français</r> on utilise 2 sytèmes d'écriture :<br><br>1) L'alphabet (A,B,C)<br>2) Les chiffres arabes (1,2,3)<br><br><r>En japonais</r> on enseigne généralement qu'il existe 3 systèmes d'écriture mais ce n'est qu'une demi-vérité.<br><br>Effectivement seuls 3 formes d'écriture sont considérées comme japonaises mais il est possible de dénombrer jusqu'à <r>5 types d'écritures</r> dans une seule et même phrase.<br><br></p><p>Voici un exemple :</p><p class='conj'><b>午前</b><c>５</c><b>時</b><purp>のごろ</purp>、<pink>NASA</pink><purp>は</purp><v>ロケット</v><purp>を</purp><b>打</b><purp>ち</purp><b>上</b><purp>げました</purp>。<br>Dans les alentours de 5h du matin, la NASA à lancé une fusée.</p>"+
+"<p><purp>1) Hiragana</purp><br><v>2) Katakana</v><br><b>3) Kanji</b><br><purp><c>4) Chiffres arabes</c><br><pink>5) Alphabet</pink></p>"+
+"<p>L'alphabet et les chiffres arabes, à priori vous les connaissez déjà.<br><br>Bien qu'il existe des kanji pour écrire les chiffres,<br> le japonais comme beaucoup d'autres langues ne<br>fait pas exception et utilise également les chiffres arabes.</p><br><br><p>Les lettres de L'alphabet par contre, je ne vais pas vous le cacher, elle ne sont utilisées que très occasoniellement.</p>"+
+"<p>Mis à part l'alphabet et les chiffres que vous connaissez déjà, il nous reste à aborder<br>les 3 types d'écritures typiquement japonaises : hiragana, katakana, kanji</p><br>"+
+"<p class='conj'>Pourquoi avoir 3 écritures différentes ?</p><p><br>Si j'avais à résumé le japonais en 2 mots ce serait : chaos organisé<br><br>Contrairement à ce qu'on pourrait penser aux premier abords, à cause de la façon dont le japonais à évolué au fil du temps,<br>utiliser une seule écriture nous rendrais la vie plus difficile.<br>Ces différentes écritures facilitent entre autres à identifier où commencent et finissent les mots.<br><br>\"Et les espaces alors ils servent pas à séparer les mots ?\"<br><br>La réponse est si, un petit problème<br> les espaces n'exitent pas en japonais.<br><br>La seule exception étant lorsque l'on fait face à un texte entièrement ou en grande partie rédigé en hiragana. On peut retrouver cette option qui nous débarasse des kanji dans certains jeux pokémon par exemple dont l'un des publiques visés sont les enfants. C'est tellement désagréable à lire que des espaces sont alors rajoutés pour améliorer la facilité de lecture ansi qu'à éviter au maximum toute confusion.<br><br>Mais à partir du moment où en sait lire les kanji aucune raison de s'attarder sur ces pratiques masochistes. Au fil de votre apprentissage votre appréhension envers les kanji diminuera et à l'inverse celle du manque de kanji augmentera.</p>"+
+"<p class='conj'>Les Kana</p>"+
+"<p>Les kana désignent l'ensemble des hiragana et katakana.<br>Pourquoi les kanji ne sont pas inclus dans les kana ?<br><br>Tout simplement parce que la façon de lire les hiragana et katakana est très similaire.<br> Quant à la façon de lire les kanji elle est très différente.</p>"+
+"<p>Les kana sont 2 syllabaires, c'est à dire que chaque caractère représente une syllabe.<br>Avec l'alphabet, si j'associe les lettres K et A j'obtient la syllabe KA.<br>En japonais j'écrit directement か , c'est un caractère unique et indissociable."+
+"<p>à l'exception de ん (hiragana) et ン (katakana) qui sont les N japonais, tous les autres caractères viennent en syllabes.</p>"+
+"<p>Pour apprendre à lire le japonais, apprendre les kana c'est le premier pas à faire. D'abord les hiragana ensuite les katakana.</p>"+
+"<p>Tout comme pour l'alphabet on utilise les kana pour exprimer <r>des son</r>.</p>"+
+"<p class='conj'>Les Hiragana</p>"+
+"<p>Les hiragana se différencient visuellement des katakana avant tout par leurs formes courbées.</p>"+
+"<p class='pi' style='font-size:2em;'>こちらはひらがなです</p>"+
+"<p><br>On utilise principalement les hiragana pour :<br><br>- écrire des mots<br>- la conjugaison<br>- les tournures grammaticales<br>- les mots à fonction grammaticales<br>- comme alternative aux kanji<br>- les onomatopées<br>- tout ce que l'on ne peut pas écrire en kanji<br>- écrire la lecture native d'un kanji (lecture Kun)<br><br>Oui, les hiragana on s'en sert un peu pour tout.</p>"+
+"<p class='conj'>Les Katakana</p>"+
+"<p>On distingue les katakana par leurs formes simples, peu courbées.</p>"+
+"<p class='pi' style='font-size:2em;'>コチラハカタカナデス</p>"+
+"<p><br>On utilise principalement les katakana pour :<br><br>- écrire les mots empruntés à des langues étrangères (principalement l'anglais mais pas que)<br>- écrire les noms ou prénoms d'origines étrangères<br>- Les noms scientifiques d'animaux et végétaux<br>- les onomatopées (également)<br>- écrire la lecture sino-japonaise d'un kanji (lecture On)</p>"+
+"<p class='conj'>Les Kanji</p>"+
+"<p>On reconnaît généralement les kanji, tout simplement en voyant qu'ils ne sont ni des hiragana ni des katakana.<br>Ils peuvent autant prendre des formes effrayantes...</p>"+
+"<p class='pi' style='font-size:2em;'>鬱　轟　龍</p>"+
+"<p>Que des formes plus simples...</p>"+
+"<p class='pi' style='font-size:2em;'>人　土　木</p>"+
+"<p>On les utilisent principalement pour :<br><br>- écrire des mots<br>- écrire des parties de mots en partie composé en hiragana</p>"+
+"<p>Les kanji sont issus de la langue chinoise, contrairement aux kana, ils ne <r>représente pas des sons</r>.<br>Les kanji sont des idéogrammes, par conséquent il <r>représentent des idées</r>.</p>"+
+"<p>Plutôt que de m'étendre en explications voici quelques mots de vocabulaire réutilisant systématiquement le kanji 人 qui veut dire ``personne``.<br><br><p class='pi'><r>人</r> (<r>hito</r>) => une personne<br>日本<r>人</r> (nihon<r>jin</r>) => un japonais<br>商<r>人</r> (shô<r>nin</r>) => un marchand<br>大<r>人</r> (o<r>tona</r>) => un adulte</p>"+
+"<p>Tout ces mots évoquent bien des personnes, cependant la façon dont 人 est lue dépend du mot dans lequels on le retrouve. La lecture peut également varier selon le contexte de la phrase. 大人 (o<r>tona</r>) par exemple qui veut dire ``adulte`` peut également être lu ``dai<r>nin</r>`` mais cette fois avec le sens de ``grande personne``.</p>"+
+"<p>N'allez pas croire que la lecture des kanji est totalement arbitraire, il y a toujours une raison derrière, aussi une personne avec suffisamment d'expérience pourra se voir capable de deviner la lecture et/ou le sens de mots jamais vu auparavant s'il est composé de kanji qui lui sont familiers.<br><br>Les kanji possèdent ce que l'on peut appeler ``des lectures communes``, en général ce sont sur ces lectures que vous tomberez. Mais il existe également ce que l'on appelle des ``lectures spéciales`` qui sont très difficilement voir impossible à deviner quand on croise le mot pour la 1ère fois.<br>On s'en remettra alors à son dictionnaire (Dans tous les cas il faut s'assurer si oui ou non, on est parvenu à deviner la lecture correcte pour un nouveau mot).</p>"+
+"<p class='conj'>Synthèse<br><br>• il existe 3 types d'écritures japonaises<br>• 2 syllabaires : hiragana et katana plus simplement appelés kana<br>• hiragana : écriture passe-partout<br>• katakana : utilisé surtout pour les mots et noms propres d'origine étrangère<br>• kanji : exprime des idées, pas des sons. La lecture varie d'un mot à l'autre. Dans un texte aide à identifier les différentes parties d'une phrase, ajoute des nuances et éclairci les malentendus.<br><br></p>"+
+"<p></p>"+
+"<br><br></div>";

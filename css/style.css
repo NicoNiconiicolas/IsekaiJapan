@@ -30,26 +30,32 @@
 
 r{
 	color: #E00;
+	font-weight: bold;
 }
 
 pink{
 	color: hotpink;
+	font-weight: bold;
 }
 
 v{
 	color: violet;
+	font-weight: bold;
 }
 
-b{
+blue{
 	color: #0692E1;
+	font-weight: bold;
 }
 
 c{
 	color: cyan;
+	font-weight: bold;
 }
 
 purp{
 	color: mediumpurple;
+	font-weight: bold;
 }
 
 input{
@@ -219,6 +225,8 @@ p{
 }
 
 #main{
+	width: 50vw;
+	margin: auto;
 	color: #EDEDED;
 	padding: 5px;
 	background: url(../img/corner-top-right.png) no-repeat 100% 0%, url(../img/corner-top-left.png) no-repeat 0% 0%, #333;
@@ -639,6 +647,7 @@ h2.squaaare{
 
 	#main{
 		background-size: 15%;
+		width: 90vw;
 	}
 
 	ul{

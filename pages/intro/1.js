@@ -1,5 +1,5 @@
 document.getElementById('content').innerHTML = ""+
-"<div id='main'>"+
+"<div id='main' class='kijimain'>"+
 "<h1>Le Système d'Écriture</h1>"+
 "<p>Pour commencer, laissez-moi vous posez une question,<br>connaissez-vous ce mot ?</p><br>"+
 "<p class='conj' style='font-size:2em;'>カフェオレ</p>"+

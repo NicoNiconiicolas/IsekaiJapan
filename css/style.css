@@ -225,13 +225,16 @@ p{
 }
 
 #main{
-	width: 50vw;
 	margin: auto;
 	color: #EDEDED;
 	padding: 5px;
 	background: url(../img/corner-top-right.png) no-repeat 100% 0%, url(../img/corner-top-left.png) no-repeat 0% 0%, #333;
 	border-top: solid 5px #222;
 	background-size: 10%;
+}
+
+.kijimain{
+	width: 50vw;
 }
 
 #main h1{
@@ -647,6 +650,9 @@ h2.squaaare{
 
 	#main{
 		background-size: 15%;
+	}
+
+	.kijimain{
 		width: 90vw;
 	}
 
